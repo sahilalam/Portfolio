@@ -5,34 +5,53 @@ import "./style.css";
 export default function App() {
   return (
     <div>
-      <Jumbotron className="m-0 p-5 jumbotron bg-light">
-        <Row className="justify-content-center p-5 mt-5 header">
-          <Col xs="12" md="10" className="text-center top-animation">
-            <h1 className="heading">Sahil Alam</h1>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+        className="nav-bar bottom-animation"
+      >
+        <Navbar.Brand href="/">
+          <img
+            className="logo-sm"
+            src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
+          />
+          _Sahil Alam
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#about">About</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
+        <Row className="justify-content-center p-5 header">
+          <Col
+            xs="12"
+            md="6"
+            className="text-center bottom-animation pb-0 mb-0 "
+          >
+            <img
+              className="logo opacity-1"
+              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
+            />
           </Col>
-          <Col xs="12" md="3" className="text-center bottom-animation">
-            <h5 className="text-animation mb-0 pb-0" />
+          <Col xs="12" md="6">
+            <Col xs="12" md="10" className="top-animation pb-0 mb-0">
+              <h1 className="heading">Sahil Alam</h1>
+            </Col>
+
+            <Col xs="12" className="text-center bottom-animation">
+              <p className="text-animation mb-0 pb-0 header2 opacity-1" />
+            </Col>
           </Col>
         </Row>
-        <Navbar
-          collapseOnSelect
-          expand="lg"
-          bg="dark"
-          variant="dark"
-          className="nav-bar bottom-animation"
-        >
-          <Navbar.Brand href="/">Sahil Alam</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
       </Jumbotron>
     </div>
   );

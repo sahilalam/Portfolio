@@ -1,5 +1,6 @@
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 .text {
   color: white;
@@ -64,44 +65,47 @@ body {
 
 .text-animation {
   width: 0px;
-  height: 20px;
   overflow: hidden;
 
   text-align: left;
 }
 .text-animation:before {
-  height: 20px;
+  height: 25px;
   content: "Codechef_3_Star_Coder";
   position: absolute;
-  border-right: 2px solid white;
+  border-right: 2px solid darkturquoise;
+  border-bottom: 2px solid darkturquoise;
+  border-left: 2px solid darkturquoise;
   animation: text 6s infinite;
   overflow: hidden;
   text-align: left;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.329);
 }
 @keyframes text {
   0% {
     width: 0%;
-    content: "Full_Stack_Developer";
+    content: "_MERN_Stack_Developer";
   }
   25% {
     width: 100%;
   }
   49% {
-    content: "Full_Stack_Developer";
+    content: "_MERN_Stack_Developer";
   }
   50% {
     width: 0%;
-    content: "Codechef_3_Star_Coder";
+    content: "_Codechef_3⭐_Coder";
   }
   75% {
     width: 100%;
   }
   99% {
-    content: "Codechef_3_Star_Coder";
+    content: "_Codechef_3⭐_Coder";
   }
   100% {
     width: 0%;
-    content: "Full_Stack_Developer";
+    content: "_MERN_Stack_Developer";
   }
 }
 @keyframes text-before {
@@ -121,20 +125,50 @@ body {
 
 .heading {
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 .bg {
-  background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/12.gif");
-  background-size: 100% 100%;
+  background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/13.gif");
+  background-size: cover;
 }
 .header {
-  background-color: darkslategrey;
   border-radius: 10px;
-  box-shadow: 0px 0px 50px rgb(34, 49, 49);
+  box-shadow: 5px 5px 30px rgb(26, 27, 27);
+  height: 80%;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(0, 0, 0)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/17.gif");
+  background-size: cover;
+}
+
+.header2 {
+  font-size: 1.2rem;
 }
 .nav-bar {
-  box-shadow: 0px 0px 50px rgb(34, 49, 49);
-  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgb(34, 49, 49);
+  border-radius: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px cyan;
+  animation: rotate 6s infinite;
+  overflow: visible;
+}
+@keyframes rotate {
+  25% {
+    transform: rotate(20deg);
+  }
+
+  75% {
+    transform: rotate(-20deg);
+  }
+}
+.logo-sm {
+  width: 20px;
 }
