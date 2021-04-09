@@ -1,3 +1,140 @@
-h1, p {
-  font-family: Lato;
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.text {
+  color: white;
+  text-shadow: 2px 2px 10px cyan;
+}
+.jumbotron {
+  height: 100vh;
+  position: relative;
+  border-radius: 0px;
+  animation: transition 3s;
+  align-items: center;
+}
+.top-animation {
+  position: relative;
+
+  animation: top 3s ease;
+}
+.bottom-animation {
+  position: relative;
+  animation: bottom 3s ease;
+  opacity: 1;
+}
+@keyframes bottom {
+  0% {
+    top: 100vh;
+    opacity: 0;
+    left: 100vw;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    top: 0vh;
+    opacity: 1;
+    left: 0vw;
+  }
+}
+@keyframes top {
+  0% {
+    bottom: 100vh;
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    bottom: 0vh;
+    opacity: 1;
+  }
+}
+@keyframes transition {
+  0% {
+    right: 100vw;
+    opacity: 0;
+  }
+
+  100% {
+    right: 0vw;
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  width: 0px;
+  height: 20px;
+  overflow: hidden;
+
+  text-align: left;
+}
+.text-animation:before {
+  height: 20px;
+  content: "Codechef_3_Star_Coder";
+  position: absolute;
+  border-right: 2px solid white;
+  animation: text 6s infinite;
+  overflow: hidden;
+  text-align: left;
+}
+@keyframes text {
+  0% {
+    width: 0%;
+    content: "Full_Stack_Developer";
+  }
+  25% {
+    width: 100%;
+  }
+  49% {
+    content: "Full_Stack_Developer";
+  }
+  50% {
+    width: 0%;
+    content: "Codechef_3_Star_Coder";
+  }
+  75% {
+    width: 100%;
+  }
+  99% {
+    content: "Codechef_3_Star_Coder";
+  }
+  100% {
+    width: 0%;
+    content: "Full_Stack_Developer";
+  }
+}
+@keyframes text-before {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+.bg {
+  background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/12.gif");
+  background-size: 100% 100%;
+}
+.header {
+  background-color: darkslategrey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgb(34, 49, 49);
+}
+.nav-bar {
+  box-shadow: 0px 0px 50px rgb(34, 49, 49);
+  border-radius: 10px;
 }
