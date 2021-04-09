@@ -1,10 +1,11 @@
 import React from "react";
 import { Button, Jumbotron, Navbar, Nav, Row, Col } from "react-bootstrap";
 import "./style.css";
+import Skills from "./Skills.js";
 
 export default function App() {
   return (
-    <div>
+    <div id="home">
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -12,7 +13,7 @@ export default function App() {
         variant="light"
         className="nav-bar bottom-animation"
       >
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#home">
           <img
             className="logo-sm"
             src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
@@ -47,12 +48,13 @@ export default function App() {
               <h1 className="heading">Sahil Alam</h1>
             </Col>
 
-            <Col xs="12" className="text-center bottom-animation">
+            <Col xs="12" lg="7" className="text-center bottom-animation">
               <p className="text-animation mb-0 pb-0 header2 opacity-1" />
             </Col>
           </Col>
         </Row>
       </Jumbotron>
+      <Skills />
     </div>
   );
 }

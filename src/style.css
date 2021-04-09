@@ -73,39 +73,36 @@ body {
   height: 25px;
   content: "Codechef_3_Star_Coder";
   position: absolute;
-  border-right: 2px solid darkturquoise;
-  border-bottom: 2px solid darkturquoise;
-  border-left: 2px solid darkturquoise;
-  animation: text 6s infinite;
+  border-right: 2px solid white;
+
+  animation: text 12s infinite;
   overflow: hidden;
   text-align: left;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.329);
 }
 @keyframes text {
   0% {
     width: 0%;
-    content: "_MERN_Stack_Developer";
+    content: "MERN_Stack_Developer";
   }
   25% {
     width: 100%;
   }
   49% {
-    content: "_MERN_Stack_Developer";
+    content: "MERN_Stack_Developer";
   }
   50% {
     width: 0%;
-    content: "_Codechef_3⭐_Coder";
+    content: "Codechef_3⭐_Coder";
   }
   75% {
     width: 100%;
   }
   99% {
-    content: "_Codechef_3⭐_Coder";
+    content: "Codechef_3⭐_Coder";
   }
   100% {
     width: 0%;
-    content: "_MERN_Stack_Developer";
+    content: "MERN_Stack_Developer";
   }
 }
 @keyframes text-before {
@@ -138,8 +135,8 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 30px rgb(26, 27, 27);
   height: 80%;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(0, 0, 0)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/17.gif");
+  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.5)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/18.gif");
   background-size: cover;
 }
 
@@ -171,4 +168,31 @@ body {
 }
 .logo-sm {
   width: 20px;
+}
+.text-shadow-dark {
+  text-shadow: 2px 2px 20px black;
+}
+.box-head {
+  background-color: darkslategrey;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 10px;
+}
+.box-body {
+  box-shadow: 2px 2px 20px black;
+  border-radius: 10px;
+}
+.card {
+  background-color: darkslategrey;
+  box-shadow: 2px 2px 10px cyan;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.card:hover {
+  background-color: darkcyan;
+  transform: scale(1.1, 1.1);
+  box-shadow: 2px 2px 30px cyan;
+  border-radius: 10px;
+}
+#skills {
+  box-shadow: 0px 0px 30px black;
 }
