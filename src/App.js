@@ -32,12 +32,8 @@ export default function App() {
         </Navbar.Collapse>
       </Navbar>
       <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
-        <Row className="justify-content-center p-5 header">
-          <Col
-            xs="12"
-            md="6"
-            className="text-center bottom-animation pb-0 mb-0 "
-          >
+        <Row className="align-items-center p-5 header">
+          <Col xs="12" md="6" className="text-left bottom-animation pb-0 mb-0 ">
             <img
               className="logo opacity-1"
               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
@@ -50,7 +46,40 @@ export default function App() {
 
             <Col xs="12" lg="7" className="text-center bottom-animation">
               <p className="text-animation mb-0 pb-0 header2 opacity-1" />
+              <br />
+              <br />
             </Col>
+          </Col>
+          <Col xs="12" className="m-3 p-3">
+            <Row>
+              <Col xs="12">
+                Key_Skills :
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                />
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
+                />
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
+                />
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
+                />
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
+                />
+                <img
+                  className="logo-md p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
+                />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Jumbotron>

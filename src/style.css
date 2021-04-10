@@ -129,14 +129,13 @@ body {
 }
 .bg {
   background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/13.gif");
-  background-size: cover;
 }
 .header {
   border-radius: 10px;
-  box-shadow: 5px 5px 30px rgb(26, 27, 27);
-  height: 80%;
-  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.5)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/18.gif");
+  box-shadow: 5px 5px 10px black;
+  height: max-content;
+  background: linear-gradient(rgba(0, 0, 0, 0.308), rgb(0, 0, 0)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/BG.gif");
   background-size: cover;
 }
 
@@ -153,7 +152,7 @@ body {
 .logo {
   width: 50%;
   border-radius: 50%;
-  box-shadow: 2px 2px 20px cyan;
+  box-shadow: 2px 2px 30px rgb(255, 255, 255);
   animation: rotate 6s infinite;
   overflow: visible;
 }
@@ -168,6 +167,9 @@ body {
 }
 .logo-sm {
   width: 20px;
+}
+.logo-md {
+  width: 50px;
 }
 .text-shadow-dark {
   text-shadow: 2px 2px 20px black;
