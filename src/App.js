@@ -1,5 +1,14 @@
 import React from "react";
-import { Button, Jumbotron, Navbar, Nav, Row, Col } from "react-bootstrap";
+import {
+  Button,
+  Jumbotron,
+  Navbar,
+  Nav,
+  Row,
+  Col,
+  OverlayTrigger,
+  Tooltip
+} from "react-bootstrap";
 import "./style.css";
 import Skills from "./Skills.js";
 
@@ -54,10 +63,15 @@ export default function App() {
             <Row>
               <Col xs="12">
                 Key_Skills :
-                <img
-                  className="logo-md p-2"
-                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
-                />
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>Bootstrap</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                  />
+                </OverlayTrigger>
                 <img
                   className="logo-md p-2"
                   src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"

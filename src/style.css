@@ -170,6 +170,10 @@ body {
 }
 .logo-md {
   width: 50px;
+  transition: 0.5s;
+}
+.logo-md:hover {
+  transform: scale(1.2, 1.2);
 }
 .text-shadow-dark {
   text-shadow: 2px 2px 20px black;
