@@ -7,7 +7,7 @@ body {
   text-shadow: 2px 2px 5px cyan;
 }
 .jumbotron {
-  height: 100vh;
+  height: fit-content;
   position: relative;
   border-radius: 0px;
   animation: transition 3s;
@@ -137,6 +137,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.308), rgb(0, 0, 0)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/BG.gif");
   background-size: cover;
+  background-position: center;
 }
 
 .header2 {
@@ -171,12 +172,19 @@ body {
 .logo-md {
   width: 50px;
   transition: 0.5s;
+  border-radius: 50%;
 }
 .logo-md:hover {
   transform: scale(1.2, 1.2);
 }
 .text-shadow-dark {
   text-shadow: 2px 2px 20px black;
+}
+.box-shadow-dark {
+  box-shadow: 2px 2px 20px black;
+}
+.box-shadow {
+  box-shadow: 2px 2px 20px darkcyan;
 }
 .box-head {
   background-color: darkcyan;
@@ -210,7 +218,10 @@ body {
   opacity: 1;
 }
 #skills {
-  background: linear-gradient(white, rgba(169, 169, 169, 0.822)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/source.gif");
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.966),
+      rgba(132, 181, 255, 0.822)
+    ),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source.gif");
   background-size: cover;
 }

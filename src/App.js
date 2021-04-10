@@ -40,6 +40,7 @@ export default function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
       <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
         <Row className="align-items-center p-5 header">
           <Col xs="12" md="6" className="text-left bottom-animation pb-0 mb-0 ">
@@ -61,7 +62,7 @@ export default function App() {
           </Col>
           <Col xs="12" className="m-3 p-3">
             <Row>
-              <Col xs="12">
+              <Col xs="12" className="text-center">
                 Key_Skills :
                 <OverlayTrigger
                   placement="top"
@@ -121,6 +122,47 @@ export default function App() {
             </Row>
           </Col>
         </Row>
+        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+          <Navbar.Brand href="#home">Profiles</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="https://www.codechef.com/users/sahilalam">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>CodeChef</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/codechef.jpg"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+              <Nav.Link href="https://leetcode.com/alamsahil939/">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>LeetCode</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/leetcode.png"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+              <Nav.Link href="https://github.com/sahilalam">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>github</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/github.png"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
       </Jumbotron>
       <Skills />
     </div>
