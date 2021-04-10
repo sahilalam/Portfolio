@@ -218,10 +218,7 @@ body {
   opacity: 1;
 }
 #skills {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.966),
-      rgba(132, 181, 255, 0.822)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.966), rgba(0, 0, 0, 0.822)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source.gif");
   background-size: cover;
 }
