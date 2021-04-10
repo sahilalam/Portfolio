@@ -201,6 +201,7 @@ body {
 }
 .card:hover {
   transform: scale(1.1, 1.1);
+  transform: translate(-20px, -20px);
   box-shadow: 2px 2px 50px darkcyan;
   border-radius: 10px;
   z-index: 1;

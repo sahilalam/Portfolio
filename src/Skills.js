@@ -4,7 +4,7 @@ import { Row, Col, ProgressBar } from "react-bootstrap";
 function Skills() {
   return (
     <div className="container-fluid bg-light" id="skills">
-      <Row className="justify-content-center p-5">
+      <Row className="justify-content-center p-4">
         <Col xs="12" className="heading text-light text-shadow-dark mb-3">
           SKILLS
         </Col>
