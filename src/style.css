@@ -190,7 +190,7 @@ body {
 }
 .card {
   background-color: darkslategrey;
-  box-shadow: 2px 2px 10px darkcyan);
+  box-shadow: 2px 2px 10px darkcyan;
   transition: 0.5s;
   text-align: left;
   border-radius: 10px;
