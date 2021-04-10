@@ -3,71 +3,115 @@ import { Row, Col, ProgressBar } from "react-bootstrap";
 
 function Skills() {
   return (
-    <div className="container-fluid bg-dark" id="skills">
+    <div className="container-fluid bg-light" id="skills">
       <Row className="justify-content-center p-5">
         <Col xs="12" className="heading text-light text-shadow-dark mb-3">
           SKILLS
         </Col>
         <Col xs="12">
-          <Row className="justify-content-center">
-            <Col xs="12" md="4" className="mb-4 ">
+          <Row className="justify-content-start">
+            <Col xs="12" md="6" className="mb-4 ">
               <Col xs="12" className="header2 box-head mb-4 p-2">
                 Front-End
               </Col>
-              <Col xs="12" className="box-body bg-dark mb-2 p-0">
-                <Col xs="12" className="card p-3 mb-2">
+              <Col xs="12" className="box-body mb-2 p-0">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
+                  />
                   HTML
-                  <ProgressBar striped variant="info" now={80} />
+                  <ProgressBar variant="primary" now={80} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
+                  />
                   CSS
-                  <ProgressBar striped variant="info" now={80} />
+                  <ProgressBar variant="primary" now={80} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
                   JAVASCRIPT
-                  <ProgressBar striped variant="info" now={70} />
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/js.png"
+                  />
+                  <ProgressBar variant="primary" now={70} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                  />
                   BOOTSTRAP
-                  <ProgressBar striped variant="info" now={80} />
+                  <ProgressBar variant="primary" now={80} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
+                  />
                   REACT
-                  <ProgressBar striped variant="info" now={80} />
+                  <ProgressBar variant="primary" now={80} className="bar" />
                 </Col>
               </Col>
             </Col>
-            <Col xs="12" md="4" className="mb-4 ">
+          </Row>
+          <Row className="justify-content-center">
+            <Col xs="12" md="6" className="mb-4 ">
               <Col xs="12" className="header2 box-head mb-4 p-2">
                 Back-End
               </Col>
-              <Col xs="12" className="box-body bg-dark mb-2 p-0">
-                <Col xs="12" className="card p-3 mb-2">
+              <Col xs="12" className="box-body mb-2 p-0">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
+                  />
                   Node.js
-                  <ProgressBar striped variant="info" now={70} />
+                  <ProgressBar variant="primary" now={70} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/express.png"
+                  />
                   Express.js
-                  <ProgressBar striped variant="info" now={70} />
+                  <ProgressBar variant="primary" now={70} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
+                  />
                   MongoDB
-                  <ProgressBar striped variant="info" now={70} />
+                  <ProgressBar variant="primary" now={70} className="bar" />
                 </Col>
               </Col>
             </Col>
-            <Col xs="12" md="4" className="mb-4 ">
+          </Row>
+          <Row className="justify-content-end">
+            <Col xs="12" md="6" className="mb-4 ">
               <Col xs="12" className="header2 box-head mb-4 p-2">
                 Programming
               </Col>
-              <Col xs="12" className="box-body bg-dark mb-2 p-0">
-                <Col xs="12" className="card p-3 mb-2">
+              <Col xs="12" className="box-body mb-2 p-0">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/ds.png"
+                  />
                   DS and Algo
-                  <ProgressBar striped variant="info" now={80} />
+                  <ProgressBar variant="primary" now={80} className="bar" />
                 </Col>
-                <Col xs="12" className="card p-3 mb-2">
+                <Col xs="12" className="card p-3">
+                  <img
+                    className="logo-md p-2"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/c++.png"
+                  />
                   C++
-                  <ProgressBar striped variant="info" now={70} />
+                  <ProgressBar variant="primary" now={70} className="bar" />
                 </Col>
               </Col>
             </Col>

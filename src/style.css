@@ -4,7 +4,7 @@ body {
 }
 .text {
   color: white;
-  text-shadow: 2px 2px 10px cyan;
+  text-shadow: 2px 2px 5px cyan;
 }
 .jumbotron {
   height: 100vh;
@@ -179,26 +179,37 @@ body {
   text-shadow: 2px 2px 20px black;
 }
 .box-head {
-  background-color: darkslategrey;
-  box-shadow: 2px 2px 20px black;
+  background-color: darkcyan;
+  box-shadow: 2px 2px 20px rgb(75, 74, 74);
   border-radius: 10px;
 }
 .box-body {
-  box-shadow: 2px 2px 20px black;
+  background-color: darkslategrey;
+  box-shadow: 2px 2px 20px rgb(75, 74, 74);
   border-radius: 10px;
 }
 .card {
   background-color: darkslategrey;
-  box-shadow: 2px 2px 10px cyan;
-  border-radius: 5px;
+  box-shadow: 2px 2px 10px darkcyan);
+  transition: 0.5s;
+  text-align: left;
+  border-radius: 10px;
+}
+.bar {
+  opacity: 0;
   transition: 0.5s;
 }
 .card:hover {
-  background-color: darkcyan;
   transform: scale(1.1, 1.1);
-  box-shadow: 2px 2px 30px cyan;
+  box-shadow: 2px 2px 50px darkcyan;
   border-radius: 10px;
+  z-index: 1;
+}
+.card:hover > .bar {
+  opacity: 1;
 }
 #skills {
-  box-shadow: 0px 0px 30px black;
+  background: linear-gradient(white, rgba(169, 169, 169, 0.822)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/source.gif");
+  background-size: cover;
 }
