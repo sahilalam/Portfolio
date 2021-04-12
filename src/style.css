@@ -6,6 +6,9 @@ body {
   color: white;
   text-shadow: 2px 2px 5px cyan;
 }
+.text-align-right {
+  text-align: right;
+}
 .text-justify {
   text-align: justify;
 }
@@ -236,7 +239,7 @@ body {
   background-size: cover;
 }
 .projects-nav {
-  width: 50%;
+  width: fit-content;
   border-radius: 10px;
   box-shadow: 2px 2px 20px rgb(75, 74, 74);
 }
