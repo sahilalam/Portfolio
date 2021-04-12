@@ -3,6 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "./style.css";
 import Skills from "./Skills.js";
 import Home from "./Home.js";
+import Projects from "./Projects.js";
 import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
 export default function App() {
@@ -42,6 +43,7 @@ export default function App() {
         </Navbar>
         <Route exact path="/" component={Home} />
         <Route exact path="/skills" component={Skills} />
+        <Route exact path="/projects" component={Projects} />
       </BrowserRouter>
     </div>
   );
