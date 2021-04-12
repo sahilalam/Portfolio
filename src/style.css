@@ -184,9 +184,11 @@ body {
   width: 50px;
   transition: 0.5s;
   border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.233);
 }
 .logo-md:hover {
   transform: scale(1.2, 1.2);
+  border: 2px solid darkturquoise;
 }
 .logo-md:active {
   transform: scale(1, 1);
@@ -216,12 +218,14 @@ body {
   transition: 0.5s;
   text-align: left;
   border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.233);
 }
 .bar {
   opacity: 0;
   transition: 0.5s;
   border-radius: 20px;
   background-color: black;
+  border: 2px solid darkturquoise;
 }
 .card:hover {
   transform: scale(1.1, 1.1);
@@ -229,6 +233,7 @@ body {
   box-shadow: 2px 2px 50px darkcyan;
   border-radius: 10px;
   z-index: 1;
+  border: 2px solid darkturquoise;
 }
 .card:hover > .bar {
   opacity: 1;
@@ -254,20 +259,22 @@ body {
 .project-image {
   height: 200px;
   width: 100%;
-  box-shadow: 2px 2px 20px darkturquoise;
+  box-shadow: 0px 0px 5px darkturquoise;
   border-radius: 10px;
   transition: 0.5s;
+  border: 2px solid rgba(255, 255, 255, 0.233);
 }
 .project-image:hover {
   box-shadow: 2px 2px 40px darkturquoise;
   transform: scale(1.1, 1.1);
+  border: 2px solid darkturquoise;
 }
 .project-image:active {
   box-shadow: 2px 2px 20px darkturquoise;
   transform: scale(1, 1);
 }
 #projects {
-  background: linear-gradient(white, rgba(255, 255, 255, 0.486)),
+  background: linear-gradient(white, rgba(255, 255, 255, 0.671)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source.gif");
   background-size: cover;
   min-height: 100vh;
@@ -276,4 +283,9 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   font-size: smaller;
+  border: 2px solid rgba(255, 255, 255, 0.233);
+  transition: 0.5s;
+}
+.project-body:hover {
+  border: 2px solid darkturquoise;
 }

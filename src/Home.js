@@ -41,7 +41,7 @@ export default function Home() {
                   overlay={<Tooltip>Bootstrap</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
                   />
                 </OverlayTrigger>
@@ -50,7 +50,7 @@ export default function Home() {
                   overlay={<Tooltip>HTML</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
                   />
                 </OverlayTrigger>
@@ -59,7 +59,7 @@ export default function Home() {
                   overlay={<Tooltip>CSS</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
                   />
                 </OverlayTrigger>
@@ -68,7 +68,7 @@ export default function Home() {
                   overlay={<Tooltip>React</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
                   />
                 </OverlayTrigger>
@@ -77,7 +77,7 @@ export default function Home() {
                   overlay={<Tooltip>Node.JS</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
                   />
                 </OverlayTrigger>
@@ -86,7 +86,7 @@ export default function Home() {
                   overlay={<Tooltip>MongoDB</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2"
+                    className="logo-md p-2 m-1"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
                   />
                 </OverlayTrigger>
