@@ -247,7 +247,7 @@ body {
 }
 .project-head {
   background-color: darkslategrey;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   z-index: 0;
 }

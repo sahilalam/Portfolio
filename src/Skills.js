@@ -29,7 +29,7 @@ function Skills() {
                 </Col>
                 <Col xs="10" className="box-body mb-2 p-0 bottom-animation">
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={<Tooltip>Working on HTML since Jan 2020</Tooltip>}
                   >
                     <Col xs="12" className="card p-3">
@@ -48,7 +48,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={<Tooltip>Working on CSS since Jan 2020</Tooltip>}
                   >
                     <Col xs="12" className="card p-3">
@@ -67,7 +67,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on JavaScript since May 2020</Tooltip>
                     }
@@ -88,7 +88,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on BootStrap since May 2020</Tooltip>
                     }
@@ -109,7 +109,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on React since March 2021</Tooltip>
                     }
@@ -141,7 +141,7 @@ function Skills() {
                 </Col>
                 <Col xs="10" className="box-body mb-2 p-0">
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on Node.Js since May 2020</Tooltip>
                     }
@@ -162,7 +162,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="right"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on Express.Js since May 2020</Tooltip>
                     }
@@ -183,7 +183,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="left"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on MongoDB since March 2021</Tooltip>
                     }
@@ -215,7 +215,7 @@ function Skills() {
                 </Col>
                 <Col xs="10" className="box-body mb-2 p-0">
                   <OverlayTrigger
-                    placement="left"
+                    placement="bottom"
                     overlay={
                       <Tooltip>Working on Ds and Algo since March 2020</Tooltip>
                     }
@@ -236,7 +236,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="left"
+                    placement="bottom"
                     overlay={<Tooltip>Working on C++ since Jan 2020</Tooltip>}
                   >
                     <Col xs="12" className="card p-3">
