@@ -6,6 +6,9 @@ body {
   color: white;
   text-shadow: 2px 2px 5px cyan;
 }
+.text-justify {
+  text-align: justify;
+}
 .jumbotron {
   height: fit-content;
   position: relative;
@@ -30,7 +33,7 @@ body {
     left: 100vw;
   }
   70% {
-    opacity: 0.3;
+    opacity: 0.5;
   }
   100% {
     top: 0vh;
@@ -44,7 +47,7 @@ body {
     opacity: 0;
   }
   70% {
-    opacity: 0.3;
+    opacity: 0.5;
   }
   100% {
     bottom: 0vh;
@@ -62,7 +65,9 @@ body {
     opacity: 1;
   }
 }
-
+.text-anime-parent {
+  width: fit-content;
+}
 .text-animation {
   width: 0px;
   overflow: hidden;
@@ -70,12 +75,15 @@ body {
   text-align: left;
 }
 .text-animation:before {
-  height: 25px;
+  font-size: 1.4rem;
+  color: darkturquoise;
+  font-weight: 800;
+
   content: "Codechef_3_Star_Coder";
   position: absolute;
-  border-right: 2px solid white;
+  border-right: 5px solid darkturquoise;
 
-  animation: text 12s infinite;
+  animation: text 18s infinite;
   overflow: hidden;
   text-align: left;
 }
@@ -84,7 +92,7 @@ body {
     width: 0%;
     content: "MERN_Stack_Developer";
   }
-  25% {
+  40% {
     width: 100%;
   }
   49% {
@@ -94,7 +102,7 @@ body {
     width: 0%;
     content: "Codechef_3⭐_Coder";
   }
-  75% {
+  90% {
     width: 100%;
   }
   99% {
