@@ -40,6 +40,25 @@ export default function Fullstack() {
           </Col>
         </Row>
       </Col>
+      <Col xs="12" md="4" className="p-5 bottom-animation">
+        <Row className="justify-content-center">
+          <Col xs="12" className="project-head p-2 mb-3">
+            Blogger
+          </Col>
+          <Col xs="11" className="bg-dark p-2 project-body">
+            <a href="https://blogger-app.vercel.app/">
+              <img
+                className="project-image mb-3"
+                src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
+              />
+            </a>
+            <Col xs="12" className="bg-dark project-body p-3">
+              A site where you can share your thoughts by posting blogs and
+              people can like and comment on your post to make it trending .
+            </Col>
+          </Col>
+        </Row>
+      </Col>
     </Row>
   );
 }

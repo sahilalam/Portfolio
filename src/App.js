@@ -4,6 +4,7 @@ import "./style.css";
 import Skills from "./Skills.js";
 import Home from "./Home.js";
 import Projects from "./Projects.js";
+import Contact from "./Contact.js";
 import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
 export default function App() {
@@ -35,16 +36,16 @@ export default function App() {
               </NavLink>
             </Nav>
             <Nav>
-              <NavLink className="nav-link" to="/about">
-                About
+              <NavLink className="nav-link" to="/contact">
+                Contact
               </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         <Route exact path="/" component={Home} />
         <Route exact path="/skills" component={Skills} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/projects/:something" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path="/projects" component={Projects} />
       </BrowserRouter>
     </div>
   );

@@ -289,3 +289,10 @@ body {
 .project-body:hover {
   border: 2px solid darkturquoise;
 }
+#contact {
+  background: linear-gradient(darkslategray, rgba(255, 255, 255, 0.671));
+  min-height: 100vh;
+}
+.contact {
+  box-shadow: 0px 0px 10px darkslategray;
+}
