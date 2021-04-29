@@ -13,7 +13,7 @@ body {
   text-align: justify;
 }
 .jumbotron {
-  height: fit-content;
+  min-height: 100vh;
   position: relative;
   border-radius: 0px;
   animation: transition 3s;
