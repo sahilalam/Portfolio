@@ -10,7 +10,7 @@ import {
 function Skills() {
   return (
     <div className="container-fluid bg-light top-animation" id="skills">
-      <Row className="justify-content-center p-4">
+      <Row className="justify-content-center p-1">
         <Col
           xs="12"
           className="heading text-light text-shadow-dark mb-3 top-animation"

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 export default function Frontend() {
   return (
-    <Row className="justify-content-center p-3">
+    <Row className="justify-content-center p-1">
       <Col xs="12" md="6" className="p-5 bottom-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
