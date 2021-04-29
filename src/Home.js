@@ -133,6 +133,42 @@ export default function Home() {
                 </OverlayTrigger>
               </Nav.Link>
             </Nav>
+            <Navbar.Brand href="#home">Contact Me</Navbar.Brand>
+            <Nav>
+              <Nav.Link href="https://www.linkedin.com/in/sahil-alam-1b3024179/">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>LinkedIn</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+              <Nav.Link href="mailto:alamsahil939@gmail.com">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>alamsahil939@gmail.com</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/gmail.png"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+              <Nav.Link href="https://api.whatsapp.com/send?phone=+917011498951">
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>+91 7011498951</Tooltip>}
+                >
+                  <img
+                    className="logo-md p-2 box-shadow-dark"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/whatsapp.png"
+                  />
+                </OverlayTrigger>
+              </Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
       </Jumbotron>

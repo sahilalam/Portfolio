@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 export default function All() {
   return (
     <Row className="justify-content-center p-3">
-      <Col xs="12" md="4" className="p-5 bottom-animation">
+      <Col xs="12" md="6" className="p-5 bottom-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Blogger
@@ -22,7 +22,7 @@ export default function All() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 bottom-animation project">
+      <Col xs="12" md="6" className="p-5 bottom-animation project">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             URL-Shortener
@@ -41,7 +41,7 @@ export default function All() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 top-animation">
+      <Col xs="12" md="6" className="p-5 top-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Money-Manager
@@ -59,7 +59,7 @@ export default function All() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 bottom-animation">
+      <Col xs="12" md="6" className="p-5 bottom-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Spotify-Playlists
@@ -77,7 +77,7 @@ export default function All() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 top-animation">
+      <Col xs="12" md="6" className="p-5 top-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Tv-Shows
@@ -96,7 +96,7 @@ export default function All() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 top-animation">
+      <Col xs="12" md="6" className="p-5 top-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Basic To-Do

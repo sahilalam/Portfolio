@@ -257,7 +257,7 @@ body {
   z-index: 0;
 }
 .project-image {
-  height: 200px;
+  height: 300px;
   width: 100%;
   box-shadow: 0px 0px 5px darkturquoise;
   border-radius: 10px;
@@ -265,7 +265,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.233);
 }
 .project-image:hover {
-  box-shadow: 2px 2px 40px darkturquoise;
+  box-shadow: 2px 2px 40px black;
   transform: scale(1.1, 1.1);
   border: 2px solid darkturquoise;
 }
@@ -295,4 +295,10 @@ body {
 }
 .contact {
   box-shadow: 0px 0px 10px darkslategray;
+}
+#root {
+  background: linear-gradient(darkslategray, rgb(226, 226, 226));
+}
+#main-nav {
+  background-color: darkslategrey;
 }

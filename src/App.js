@@ -14,8 +14,8 @@ export default function App() {
         <Navbar
           collapseOnSelect
           expand="lg"
-          bg="light"
-          variant="light"
+          id="main-nav"
+          variant="dark"
           className="nav-bar"
         >
           <NavLink to="/" className="navbar-brand">
@@ -36,9 +36,7 @@ export default function App() {
               </NavLink>
             </Nav>
             <Nav>
-              <NavLink className="nav-link" to="/contact">
-                Contact
-              </NavLink>
+              <NavLink className="nav-link" to="/contact" />
             </Nav>
           </Navbar.Collapse>
         </Navbar>

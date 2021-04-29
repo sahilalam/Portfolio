@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 export default function Frontend() {
   return (
     <Row className="justify-content-center p-3">
-      <Col xs="12" md="4" className="p-5 bottom-animation">
+      <Col xs="12" md="6" className="p-5 bottom-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Spotify-Playlists
@@ -21,7 +21,7 @@ export default function Frontend() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 top-animation">
+      <Col xs="12" md="6" className="p-5 top-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Tv-Shows
@@ -40,7 +40,7 @@ export default function Frontend() {
           </Col>
         </Row>
       </Col>
-      <Col xs="12" md="4" className="p-5 top-animation">
+      <Col xs="12" md="6" className="p-5 top-animation">
         <Row className="justify-content-center">
           <Col xs="12" className="project-head p-2 mb-3">
             Basic To-Do
