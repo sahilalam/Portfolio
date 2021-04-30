@@ -14,7 +14,7 @@ export default function App() {
         <Navbar
           collapseOnSelect
           expand="lg"
-          id="main-nav"
+          bg="dark"
           variant="dark"
           className="nav-bar"
         >

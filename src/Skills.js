@@ -44,7 +44,7 @@ function Skills() {
                     overlay={
                       <Tooltip className="project-body">
                         Working on HTML since Jan 2020
-                        <ProgressBar variant="primary" now={80} />
+                        <ProgressBar variant="success" now={80} />
                       </Tooltip>
                     }
                   >
@@ -67,7 +67,7 @@ function Skills() {
                     overlay={
                       <Tooltip className="project-body">
                         Working on CSS since Jan 2020
-                        <ProgressBar variant="primary" now={80} />
+                        <ProgressBar variant="success" now={80} />
                       </Tooltip>
                     }
                   >
@@ -113,7 +113,7 @@ function Skills() {
                     overlay={
                       <Tooltip className="project-body">
                         Working on BootStrap since May 2020
-                        <ProgressBar variant="primary" now={80} />
+                        <ProgressBar variant="success" now={80} />
                       </Tooltip>
                     }
                   >
@@ -136,7 +136,7 @@ function Skills() {
                     overlay={
                       <Tooltip className="project-body">
                         Working on React since March 2021
-                        <ProgressBar variant="primary" now={80} />
+                        <ProgressBar variant="success" now={80} />
                       </Tooltip>
                     }
                   >
@@ -263,7 +263,7 @@ function Skills() {
                     overlay={
                       <Tooltip className="project-body">
                         Working on Ds and Algo since March 2020
-                        <ProgressBar variant="primary" now={80} />
+                        <ProgressBar variant="success" now={80} />
                       </Tooltip>
                     }
                   >
