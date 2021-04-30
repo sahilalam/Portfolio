@@ -13,7 +13,6 @@ body {
   text-align: justify;
 }
 .jumbotron {
-  min-height: 100vh;
   position: relative;
   border-radius: 0px;
   animation: transition 3s;
@@ -298,6 +297,7 @@ body {
 }
 #root {
   background: linear-gradient(darkslategray, rgb(226, 226, 226));
+  min-height: 100vh;
 }
 #main-nav {
   background-color: darkslategrey;
