@@ -9,7 +9,7 @@ import {
 
 function Skills() {
   return (
-    <div className="container-fluid bg-light top-animation" id="skills">
+    <div className="container-fluid bg-light" id="skills">
       <Row className="justify-content-center p-1">
         <Col
           xs="12"
@@ -27,7 +27,7 @@ function Skills() {
                 >
                   Front-End
                 </Col>
-                <Col xs="10" md="4">
+                <Col xs="10" md="4" className="top-animation">
                   <img
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/frontend.png"
                     className="width-100"
@@ -236,7 +236,7 @@ function Skills() {
                     </Col>
                   </OverlayTrigger>
                 </Col>
-                <Col xs="10" md="3">
+                <Col xs="10" md="3" className="top-animation">
                   <img
                     className="width-100"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/backend.png"
@@ -251,7 +251,7 @@ function Skills() {
                 <Col xs="10" className="header2 box-head mb-4 p-2">
                   Programming
                 </Col>
-                <Col xs="10" md="3">
+                <Col xs="10" md="3" className="top-animation">
                   <img
                     className="width-100"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/p.png"
