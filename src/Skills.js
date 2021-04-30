@@ -19,18 +19,34 @@ function Skills() {
         </Col>
         <Col xs="12">
           <Row className="justify-content-start">
-            <Col xs="12" md="6" className="mb-4 ">
+            <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
                 <Col
-                  xs="12"
+                  xs="10"
                   className="header2 box-head mb-4 p-2 top-animation"
                 >
                   Front-End
                 </Col>
-                <Col xs="10" className="box-body mb-2 p-0 bottom-animation">
+                <Col xs="10" md="4">
+                  <img
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/frontend.png"
+                    className="width-100"
+                  />
+                </Col>
+
+                <Col
+                  xs="10"
+                  md="5"
+                  className="box-body mb-2 p-0 bottom-animation"
+                >
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Working on HTML since Jan 2020</Tooltip>}
+                    overlay={
+                      <Tooltip className="project-body">
+                        Working on HTML since Jan 2020
+                        <ProgressBar variant="primary" now={80} />
+                      </Tooltip>
+                    }
                   >
                     <Col xs="12" className="card p-3">
                       <Row className="justify-content-center p-1">
@@ -44,12 +60,16 @@ function Skills() {
                           HTML
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={80} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Working on CSS since Jan 2020</Tooltip>}
+                    overlay={
+                      <Tooltip className="project-body">
+                        Working on CSS since Jan 2020
+                        <ProgressBar variant="primary" now={80} />
+                      </Tooltip>
+                    }
                   >
                     <Col xs="12" className="card p-3">
                       <Row className="justify-content-center p-1">
@@ -63,13 +83,15 @@ function Skills() {
                           CSS
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={80} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on JavaScript since May 2020</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on JavaScript since May 2020
+                        <ProgressBar variant="primary" now={70} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -84,13 +106,15 @@ function Skills() {
                           JAVASCRIPT
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={70} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on BootStrap since May 2020</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on BootStrap since May 2020
+                        <ProgressBar variant="primary" now={80} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -105,13 +129,15 @@ function Skills() {
                           BOOTSTRAP
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={80} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on React since March 2021</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on React since March 2021
+                        <ProgressBar variant="primary" now={80} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -126,7 +152,6 @@ function Skills() {
                           REACT
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={80} className="bar" />
                     </Col>
                   </OverlayTrigger>
                 </Col>
@@ -134,16 +159,20 @@ function Skills() {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs="12" md="6" className="mb-4 ">
+            <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
-                <Col xs="12" className="header2 box-head mb-4 p-2">
+                <Col xs="10" className="header2 box-head mb-4 p-2">
                   Back-End
                 </Col>
-                <Col xs="10" className="box-body mb-2 p-0">
+
+                <Col xs="10" md="5" className="box-body mb-2 p-0">
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on Node.Js since May 2020</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on Node.Js since May 2020
+                        <ProgressBar variant="primary" now={70} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -158,13 +187,15 @@ function Skills() {
                           Node.js
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={70} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on Express.Js since May 2020</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on Express.Js since May 2020
+                        <ProgressBar variant="primary" now={70} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -179,13 +210,15 @@ function Skills() {
                           Express.js
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={70} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on MongoDB since March 2021</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on MongoDB since March 2021
+                        <ProgressBar variant="primary" now={70} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -200,24 +233,38 @@ function Skills() {
                           MongoDB
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={70} className="bar" />
                     </Col>
                   </OverlayTrigger>
+                </Col>
+                <Col xs="10" md="3">
+                  <img
+                    className="width-100"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/backend.png"
+                  />
                 </Col>
               </Row>
             </Col>
           </Row>
           <Row className="justify-content-end">
-            <Col xs="12" md="6" className="mb-4 ">
+            <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
-                <Col xs="12" className="header2 box-head mb-4 p-2">
+                <Col xs="10" className="header2 box-head mb-4 p-2">
                   Programming
                 </Col>
-                <Col xs="10" className="box-body mb-2 p-0">
+                <Col xs="10" md="3">
+                  <img
+                    className="width-100"
+                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/p.png"
+                  />
+                </Col>
+                <Col xs="10" md="5" className="box-body mb-2 p-0">
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip>Working on Ds and Algo since March 2020</Tooltip>
+                      <Tooltip className="project-body">
+                        Working on Ds and Algo since March 2020
+                        <ProgressBar variant="primary" now={80} />
+                      </Tooltip>
                     }
                   >
                     <Col xs="12" className="card p-3">
@@ -232,12 +279,16 @@ function Skills() {
                           DS and Algo
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={80} className="bar" />
                     </Col>
                   </OverlayTrigger>
                   <OverlayTrigger
-                    placement="bottom"
-                    overlay={<Tooltip>Working on C++ since Jan 2020</Tooltip>}
+                    placement="top"
+                    overlay={
+                      <Tooltip className="project-body">
+                        Working on C++ since Jan 2020
+                        <ProgressBar variant="primary" now={70} />
+                      </Tooltip>
+                    }
                   >
                     <Col xs="12" className="card p-3">
                       <Row className="justify-content-center p-1">
@@ -251,7 +302,6 @@ function Skills() {
                           C++
                         </Col>
                       </Row>
-                      <ProgressBar variant="primary" now={70} className="bar" />
                     </Col>
                   </OverlayTrigger>
                 </Col>

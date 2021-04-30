@@ -6,6 +6,9 @@ body {
   color: white;
   text-shadow: 2px 2px 5px cyan;
 }
+.width-100 {
+  width: 100%;
+}
 .text-align-right {
   text-align: right;
 }
@@ -141,7 +144,7 @@ body {
   background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/13.gif");
 }
 .header {
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 5px 5px 10px black;
   height: max-content;
   background: linear-gradient(rgba(0, 0, 0, 0.308), rgb(0, 0, 0)),
@@ -210,6 +213,7 @@ body {
   background-color: darkslategrey;
   box-shadow: 2px 2px 20px rgb(75, 74, 74);
   border-radius: 10px;
+  height: fit-content;
 }
 .card {
   background-color: darkslategrey;
@@ -250,10 +254,11 @@ body {
 .project {
 }
 .project-head {
-  background-color: darkslategrey;
-  border-radius: 10px;
+  background-color: rgba(47, 79, 79, 0.966);
+  border-radius: 2px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   z-index: 0;
+  border: 2px solid darkturquoise;
 }
 .project-image {
   height: 300px;
@@ -263,8 +268,9 @@ body {
   transition: 0.5s;
   border: 2px solid rgba(255, 255, 255, 0.233);
 }
+
 .project-image:hover {
-  box-shadow: 2px 2px 40px cyan;
+  box-shadow: 2px 2px 40px rgb(1, 90, 90);
   transform: translate(-5px, -5px);
   border: 2px solid darkturquoise;
 }
@@ -279,7 +285,8 @@ body {
   min-height: 100vh;
 }
 .project-body {
-  border-radius: 10px;
+  background-color: transparent;
+  border-radius: 2px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   font-size: smaller;
   border: 2px solid rgba(255, 255, 255, 0.233);
