@@ -265,8 +265,8 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.233);
 }
 .project-image:hover {
-  box-shadow: 2px 2px 40px black;
-  transform: scale(1.1, 1.1);
+  box-shadow: 2px 2px 40px cyan;
+  transform: translate(-5px, -5px);
   border: 2px solid darkturquoise;
 }
 .project-image:active {
