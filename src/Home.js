@@ -20,7 +20,7 @@ export default function Home() {
               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
             />
           </Col>
-          <Col xs="12" md="6">
+          <Col xs="12" md="6" className="box-body">
             <Col xs="12" md="10" className="top-animation pb-0 mb-0">
               <h1 className="heading">Sahil Alam</h1>
             </Col>
@@ -32,9 +32,9 @@ export default function Home() {
               <br />
             </Col>
           </Col>
-          <Col xs="12" className="m-3 p-3">
+          <Col xs="12" className="m-0 mt-3 mb-3 p-3">
             <Row>
-              <Col xs="12" className="text-center">
+              <Col xs="12" className="text-center box-body">
                 Key_Skills :
                 <OverlayTrigger
                   placement="top"
@@ -94,7 +94,7 @@ export default function Home() {
             </Row>
           </Col>
         </Row>
-        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
           <Navbar.Brand href="#home">Profiles</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -141,7 +141,7 @@ export default function Home() {
                   overlay={<Tooltip>LinkedIn</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2 box-shadow-dark"
+                    className="logo-md p-2 box-shadow-dark bg-light"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
                   />
                 </OverlayTrigger>

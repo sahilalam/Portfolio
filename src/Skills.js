@@ -9,7 +9,7 @@ import {
 
 function Skills() {
   return (
-    <div className="container-fluid bg-light" id="skills">
+    <div className="container-fluid bg-trnsparent" id="skills">
       <Row className="justify-content-center p-1">
         <Col
           xs="12"
@@ -17,16 +17,13 @@ function Skills() {
         >
           SKILLS
         </Col>
-        <Col xs="12">
-          <Row className="justify-content-start">
-            <Col xs="12" className="mb-4 ">
+        <Col xs="12" className="p-2">
+          <Row
+            className="justify-content-start"
+            className="m-3 bottom-animation card-big p-2"
+          >
+            <Col xs="12">
               <Row className="justify-content-center">
-                <Col
-                  xs="10"
-                  className="header2 box-head mb-4 p-2 top-animation"
-                >
-                  Front-End
-                </Col>
                 <Col xs="10" md="4" className="top-animation">
                   <img
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/frontend.png"
@@ -36,9 +33,15 @@ function Skills() {
 
                 <Col
                   xs="10"
-                  md="5"
-                  className="box-body mb-2 p-0 bottom-animation"
+                  md="4"
+                  className="box-body m-3 p-0 bottom-animation"
                 >
+                  <Col
+                    xs="12"
+                    className="bg-transparent mb-4 p-2 top-animation"
+                  >
+                    <h3>Front-End</h3>
+                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
@@ -48,7 +51,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -71,7 +74,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -94,7 +97,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -117,7 +120,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -140,7 +143,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -158,14 +161,16 @@ function Skills() {
               </Row>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center top-animation m-3 card-big">
             <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
-                <Col xs="10" className="header2 box-head mb-4 p-2">
-                  Back-End
-                </Col>
-
-                <Col xs="10" md="5" className="box-body mb-2 p-0">
+                <Col xs="10" md="4" className="box-body m-3 p-0">
+                  <Col
+                    xs="12"
+                    className="bg-transparent mb-4 p-2 top-animation"
+                  >
+                    <h3>Back-End</h3>
+                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
@@ -175,7 +180,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -198,7 +203,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -221,7 +226,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -245,19 +250,22 @@ function Skills() {
               </Row>
             </Col>
           </Row>
-          <Row className="justify-content-end">
+          <Row className="justify-content-end" className="m-3 card-big ">
             <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
-                <Col xs="10" className="header2 box-head mb-4 p-2">
-                  Programming
-                </Col>
                 <Col xs="10" md="3" className="top-animation">
                   <img
                     className="width-100"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/p.png"
                   />
                 </Col>
-                <Col xs="10" md="5" className="box-body mb-2 p-0">
+                <Col xs="10" md="4" className="box-body m-3 p-0">
+                  <Col
+                    xs="12"
+                    className="bg-transparent mb-4 p-2 top-animation"
+                  >
+                    <h3>Programming</h3>
+                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
@@ -267,7 +275,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
@@ -290,7 +298,7 @@ function Skills() {
                       </Tooltip>
                     }
                   >
-                    <Col xs="12" className="card p-3">
+                    <Col xs="12" className="card p-0">
                       <Row className="justify-content-center p-1">
                         <Col xs="6" className="text-align-right">
                           <img
