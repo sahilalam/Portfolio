@@ -141,7 +141,7 @@ export default function Home() {
                   overlay={<Tooltip>LinkedIn</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2 box-shadow-dark bg-dark"
+                    className="logo-md p-2 box-shadow-dark"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
                   />
                 </OverlayTrigger>

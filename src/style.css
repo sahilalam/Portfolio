@@ -341,12 +341,9 @@ body {
   box-shadow: 0px 0px 10px darkslategray;
 }
 #root {
-  background: radial-gradient(
-      rgba(255, 255, 255, 0.952),
-      rgba(51, 51, 51, 0.938)
-    ),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source.gif");
-
+  background: radial-gradient(rgba(255, 255, 255, 0.897), rgba(0, 0, 0, 0.637)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
+  background-size: cover;
   min-height: 100vh;
 }
 #main-nav {
