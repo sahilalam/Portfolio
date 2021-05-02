@@ -46,9 +46,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on HTML since Jan 2020
+                        <div className="project-head">
+                          Working on HTML since Jan 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">8 / 10</div>
                         <ProgressBar
                           variant="success"
                           className="bar"
@@ -75,9 +77,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on CSS since Jan 2020
+                        <div className="project-head">
+                          Working on CSS since Jan 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">8 / 10</div>
                         <ProgressBar
                           variant="success"
                           className="bar"
@@ -104,9 +108,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on JavaScript since May 2020
+                        <div className="project-head">
+                          Working on JavaScript since May 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">7 / 10</div>
                         <ProgressBar
                           variant="primary"
                           className="bar"
@@ -133,9 +139,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on BootStrap since May 2020
+                        <div className="project-head">
+                          Working on BootStrap since May 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">8 / 10</div>
                         <ProgressBar
                           variant="success"
                           className="bar"
@@ -162,9 +170,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on React since March 2021
+                        <div className="project-head">
+                          Working on React since March 2021
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">8 / 10</div>
                         <ProgressBar
                           variant="success"
                           className="bar"
@@ -205,9 +215,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on Node.Js since May 2020
+                        <div className="project-head">
+                          Working on Node.Js since May 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">7 / 10</div>
                         <ProgressBar
                           variant="primary"
                           className="bar"
@@ -234,9 +246,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on Express.Js since May 2020
+                        <div className="project-head">
+                          Working on Express.Js since May 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">7 / 10</div>
                         <ProgressBar
                           variant="primary"
                           className="bar"
@@ -263,9 +277,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on MongoDB since March 2021
+                        <div className="project-head">
+                          Working on MongoDB since March 2021
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">7 / 10</div>
                         <ProgressBar
                           variant="primary"
                           className="bar"
@@ -318,9 +334,11 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on Ds and Algo since March 2020
+                        <div className="project-head">
+                          Working on Ds and Algo since March 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">8 / 10</div>
                         <ProgressBar
                           variant="success"
                           className="bar"
@@ -347,9 +365,11 @@ function Skills() {
                     placement="top"
                     overlay={
                       <Tooltip className="box-head">
-                        Working on C++ since Jan 2020
+                        <div className="project-head">
+                          Working on C++ since Jan 2020
+                        </div>
                         <br />
-                        <br />
+                        <div className="text">7 / 10</div>
                         <ProgressBar
                           variant="primary"
                           className="bar"

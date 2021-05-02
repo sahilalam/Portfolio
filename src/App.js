@@ -18,7 +18,7 @@ export default function App() {
           variant="dark"
           className="nav-bar"
         >
-          <NavLink to="/" className="navbar-brand">
+          <NavLink to="/" className="navbar-brand navlink p-2">
             <img
               className="logo-sm"
               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
@@ -28,10 +28,10 @@ export default function App() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <NavLink className="nav-link" to="/skills">
+              <NavLink className="nav-link navlink" to="/skills">
                 Skills
               </NavLink>
-              <NavLink className="nav-link" to="/projects">
+              <NavLink className="nav-link navlink" to="/projects">
                 Projects
               </NavLink>
             </Nav>

@@ -192,7 +192,8 @@ body {
 }
 .logo-md:hover {
   transform: scale(1.2, 1.2);
-  border: 2px solid darkturquoise;
+  border: 2px solid rgb(0, 132, 209);
+  box-shadow: 0px 0px 50px rgb(39, 39, 39);
 }
 .logo-md:active {
   transform: scale(1, 1);
@@ -271,7 +272,7 @@ body {
   transform: translate(-20px, -20px);
 
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
-  border-radius: 00px;
+  border-radius: 10px;
   z-index: 1;
   border-right: 10px solid rgb(1, 118, 172);
   border-left: 10px solid rgb(1, 118, 172);
@@ -291,7 +292,8 @@ body {
   border-radius: 5px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   z-index: 0;
-  border: 2px solid rgb(0, 98, 209);
+  border-left: 5px solid rgb(0, 98, 209);
+  border-right: 5px solid rgb(0, 98, 209);
 }
 .project-image {
   height: 300px;
@@ -316,10 +318,11 @@ body {
 }
 .project-body {
   background-color: transparent;
-  border-radius: 0px;
+  border-radius: 10px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   font-size: smaller;
-
+  border-top: 5px solid rgb(0, 98, 209);
+  border-bottom: 5px solid rgb(0, 98, 209);
   transition: 0.5s;
 }
 
@@ -341,4 +344,14 @@ body {
 }
 #main-nav {
   background-color: darkslategrey;
+}
+.navlink {
+  transition: 0s;
+  width: fit-content;
+}
+.navlink:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.281);
+  border-left: 5px solid rgb(0, 60, 255);
+  border-right: 5px solid rgb(0, 60, 255);
 }

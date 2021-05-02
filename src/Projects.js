@@ -24,16 +24,16 @@ export default function Projects() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <NavLink className="nav-link" to="/projects/all">
+                <NavLink className="nav-link navlink" to="/projects/all">
                   All
                 </NavLink>
-                <NavLink className="nav-link" to="/projects/frontend">
+                <NavLink className="nav-link navlink" to="/projects/frontend">
                   Front-End
                 </NavLink>
-                <NavLink className="nav-link" to="/projects/react">
+                <NavLink className="nav-link navlink" to="/projects/react">
                   React
                 </NavLink>
-                <NavLink className="nav-link" to="/projects/fullstack">
+                <NavLink className="nav-link navlink" to="/projects/fullstack">
                   Full-Stack
                 </NavLink>
               </Nav>
