@@ -3,6 +3,8 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 .text {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: white;
   text-shadow: 2px 2px 10px rgb(0, 212, 212);
 }
@@ -232,15 +234,31 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.062);
 }
 .bar {
-  opacity: 0;
-  transition: 0.5s;
+  width: 100%;
+  transition: 1s;
   border-radius: 20px;
   background-color: black;
-  border: 2px solid darkturquoise;
+  border: 0px solid rgb(0, 206, 209);
+  animation: bar 2s;
+  box-shadow: 0px 0px 10px cyan;
+}
+@keyframes bar {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 0%;
+    box-shadow: 10px 10px 30px cyan;
+  }
+  100% {
+    border: 0px solid rgb(0, 206, 209);
+    box-shadow: 0px 0px 10px cyan;
+    width: 100%;
+  }
 }
 .card-big:hover {
   background-color: rgba(39, 39, 39, 0.952);
-
+  transform: scale(1.03, 1);
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
   border-radius: 00px;
   z-index: 1;
@@ -258,9 +276,7 @@ body {
   border-right: 10px solid rgb(1, 118, 172);
   border-left: 10px solid rgb(1, 118, 172);
 }
-.card:hover > .bar {
-  opacity: 1;
-}
+
 #skills {
 }
 .projects-nav {
@@ -280,7 +296,7 @@ body {
 .project-image {
   height: 300px;
   width: 100%;
-  box-shadow: 0px 0px 5px rgb(0, 84, 209);
+  box-shadow: 0px 0px 0px rgb(0, 84, 209);
   border-radius: 10px;
   transition: 0.5s;
   border: 2px solid rgba(255, 255, 255, 0.233);

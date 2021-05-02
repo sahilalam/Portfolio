@@ -45,9 +45,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on HTML since Jan 2020
-                        <ProgressBar variant="success" now={80} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="success"
+                          className="bar"
+                          now={80}
+                        />
                       </Tooltip>
                     }
                   >
@@ -68,9 +74,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on CSS since Jan 2020
-                        <ProgressBar variant="success" now={80} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="success"
+                          className="bar"
+                          now={80}
+                        />
                       </Tooltip>
                     }
                   >
@@ -91,9 +103,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on JavaScript since May 2020
-                        <ProgressBar variant="primary" now={70} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="primary"
+                          className="bar"
+                          now={70}
+                        />
                       </Tooltip>
                     }
                   >
@@ -114,9 +132,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on BootStrap since May 2020
-                        <ProgressBar variant="success" now={80} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="success"
+                          className="bar"
+                          now={80}
+                        />
                       </Tooltip>
                     }
                   >
@@ -137,9 +161,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on React since March 2021
-                        <ProgressBar variant="success" now={80} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="success"
+                          className="bar"
+                          now={80}
+                        />
                       </Tooltip>
                     }
                   >
@@ -174,9 +204,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on Node.Js since May 2020
-                        <ProgressBar variant="primary" now={70} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="primary"
+                          className="bar"
+                          now={70}
+                        />
                       </Tooltip>
                     }
                   >
@@ -197,9 +233,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on Express.Js since May 2020
-                        <ProgressBar variant="primary" now={70} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="primary"
+                          className="bar"
+                          now={70}
+                        />
                       </Tooltip>
                     }
                   >
@@ -220,9 +262,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on MongoDB since March 2021
-                        <ProgressBar variant="primary" now={70} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="primary"
+                          className="bar"
+                          now={70}
+                        />
                       </Tooltip>
                     }
                   >
@@ -269,9 +317,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on Ds and Algo since March 2020
-                        <ProgressBar variant="success" now={80} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="success"
+                          className="bar"
+                          now={80}
+                        />
                       </Tooltip>
                     }
                   >
@@ -292,9 +346,15 @@ function Skills() {
                   <OverlayTrigger
                     placement="top"
                     overlay={
-                      <Tooltip className="project-body">
+                      <Tooltip className="box-head">
                         Working on C++ since Jan 2020
-                        <ProgressBar variant="primary" now={70} />
+                        <br />
+                        <br />
+                        <ProgressBar
+                          variant="primary"
+                          className="bar"
+                          now={70}
+                        />
                       </Tooltip>
                     }
                   >
