@@ -225,6 +225,7 @@ body {
   text-align: left;
   border-radius: 0px;
   border: 2px solid rgba(255, 255, 255, 0.062);
+  border-left: 10px solid rgb(1, 118, 172);
 }
 .card-big {
   background-color: rgba(49, 49, 49, 0.644);
@@ -235,6 +236,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.062);
 }
 .bar {
+  margin-bottom: 5px;
   width: 100%;
   transition: 1s;
   border-radius: 20px;
@@ -261,7 +263,7 @@ body {
   background-color: rgba(39, 39, 39, 0.952);
   transform: scale(1.03, 1);
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
-  border-radius: 00px;
+
   z-index: 1;
   border-right: 10px solid rgb(1, 118, 172);
   border-left: 10px solid rgb(1, 118, 172);

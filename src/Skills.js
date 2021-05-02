@@ -24,6 +24,9 @@ function Skills() {
           >
             <Col xs="12">
               <Row className="justify-content-center">
+                <Col xs="12" className="bg-transparent mb-4 p-2 top-animation">
+                  <h3>Front-End</h3>
+                </Col>
                 <Col xs="10" md="4" className="top-animation">
                   <img
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/frontend.png"
@@ -36,12 +39,6 @@ function Skills() {
                   md="4"
                   className="box-body m-3 p-0 bottom-animation"
                 >
-                  <Col
-                    xs="12"
-                    className="bg-transparent mb-4 p-2 top-animation"
-                  >
-                    <h3>Front-End</h3>
-                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
@@ -204,13 +201,10 @@ function Skills() {
           <Row className="justify-content-center top-animation m-3 card-big">
             <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
+                <Col xs="12" className="bg-transparent mb-4 p-2 top-animation">
+                  <h3>Back-End</h3>
+                </Col>
                 <Col xs="10" md="4" className="box-body m-3 p-0">
-                  <Col
-                    xs="12"
-                    className="bg-transparent mb-4 p-2 top-animation"
-                  >
-                    <h3>Back-End</h3>
-                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
@@ -317,6 +311,9 @@ function Skills() {
           <Row className="justify-content-end" className="m-3 card-big ">
             <Col xs="12" className="mb-4 ">
               <Row className="justify-content-center">
+                <Col xs="12" className="bg-transparent mb-4 p-2 top-animation">
+                  <h3>Programming</h3>
+                </Col>
                 <Col xs="10" md="3" className="top-animation">
                   <img
                     className="width-100"
@@ -324,12 +321,6 @@ function Skills() {
                   />
                 </Col>
                 <Col xs="10" md="4" className="box-body m-3 p-0">
-                  <Col
-                    xs="12"
-                    className="bg-transparent mb-4 p-2 top-animation"
-                  >
-                    <h3>Programming</h3>
-                  </Col>
                   <OverlayTrigger
                     placement="bottom"
                     overlay={
