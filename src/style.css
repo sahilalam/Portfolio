@@ -235,7 +235,7 @@ body {
 .card-big {
   background-color: rgba(49, 49, 49, 0.644);
   box-shadow: 2px 2px 10px rgb(66, 66, 66);
-  transition: 0.3s;
+  transition: 0.5s;
   text-align: left;
   border-radius: 10px;
   border: 2px solid rgba(255, 255, 255, 0.062);
@@ -256,7 +256,7 @@ body {
   0% {
     width: 0%;
   }
-  25% {
+  5% {
     width: 0%;
     box-shadow: 10px 10px 30px cyan;
   }
@@ -271,13 +271,13 @@ body {
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
 
   z-index: 1;
-  border-right: 10px solid rgb(1, 118, 172);
-  border-left: 10px solid rgb(1, 118, 172);
+  border-top: 10px solid rgb(1, 118, 172);
+  border-bottom: 10px solid rgb(1, 118, 172);
 }
 .card:hover {
   background-color: rgba(39, 39, 39, 0.952);
 
-  transform: translate(-20px, -20px);
+  transform: translate(-10px, -10px);
 
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
   border-radius: 10px;

@@ -43,16 +43,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">8 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={80} />
+                        <br />
                         <div className="project-head">
                           Working on HTML since Jan 2020
                         </div>
-                        <br />
-                        <div className="text">8 / 10</div>
-                        <ProgressBar
-                          variant="success"
-                          className="bar"
-                          now={80}
-                        />
                       </Tooltip>
                     }
                   >
@@ -74,16 +70,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">8 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={80} />
+                        <br />
                         <div className="project-head">
                           Working on CSS since Jan 2020
                         </div>
-                        <br />
-                        <div className="text">8 / 10</div>
-                        <ProgressBar
-                          variant="success"
-                          className="bar"
-                          now={80}
-                        />
                       </Tooltip>
                     }
                   >
@@ -105,16 +97,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">7 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={70} />
+                        <br />
                         <div className="project-head">
                           Working on JavaScript since May 2020
                         </div>
-                        <br />
-                        <div className="text">7 / 10</div>
-                        <ProgressBar
-                          variant="primary"
-                          className="bar"
-                          now={70}
-                        />
                       </Tooltip>
                     }
                   >
@@ -136,16 +124,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">8 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={80} />
+                        <br />
                         <div className="project-head">
                           Working on BootStrap since May 2020
                         </div>
-                        <br />
-                        <div className="text">8 / 10</div>
-                        <ProgressBar
-                          variant="success"
-                          className="bar"
-                          now={80}
-                        />
                       </Tooltip>
                     }
                   >
@@ -167,16 +151,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">8 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={80} />
+                        <br />
                         <div className="project-head">
                           Working on React since March 2021
                         </div>
-                        <br />
-                        <div className="text">8 / 10</div>
-                        <ProgressBar
-                          variant="success"
-                          className="bar"
-                          now={80}
-                        />
                       </Tooltip>
                     }
                   >
@@ -209,16 +189,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">7 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={70} />
+                        <br />
                         <div className="project-head">
                           Working on Node.Js since May 2020
                         </div>
-                        <br />
-                        <div className="text">7 / 10</div>
-                        <ProgressBar
-                          variant="primary"
-                          className="bar"
-                          now={70}
-                        />
                       </Tooltip>
                     }
                   >
@@ -240,16 +216,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">7 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={70} />
+                        <br />
                         <div className="project-head">
                           Working on Express.Js since May 2020
                         </div>
-                        <br />
-                        <div className="text">7 / 10</div>
-                        <ProgressBar
-                          variant="primary"
-                          className="bar"
-                          now={70}
-                        />
                       </Tooltip>
                     }
                   >
@@ -271,16 +243,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">7 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={70} />
+                        <br />
                         <div className="project-head">
                           Working on MongoDB since March 2021
                         </div>
-                        <br />
-                        <div className="text">7 / 10</div>
-                        <ProgressBar
-                          variant="primary"
-                          className="bar"
-                          now={70}
-                        />
                       </Tooltip>
                     }
                   >
@@ -325,16 +293,12 @@ function Skills() {
                     placement="bottom"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">8 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={80} />
+                        <br />
                         <div className="project-head">
                           Working on Ds and Algo since March 2020
                         </div>
-                        <br />
-                        <div className="text">8 / 10</div>
-                        <ProgressBar
-                          variant="success"
-                          className="bar"
-                          now={80}
-                        />
                       </Tooltip>
                     }
                   >
@@ -356,16 +320,12 @@ function Skills() {
                     placement="top"
                     overlay={
                       <Tooltip className="box-head">
+                        <div className="text">7 / 10</div>
+                        <ProgressBar variant="info" className="bar" now={70} />
+                        <br />
                         <div className="project-head">
                           Working on C++ since Jan 2020
                         </div>
-                        <br />
-                        <div className="text">7 / 10</div>
-                        <ProgressBar
-                          variant="primary"
-                          className="bar"
-                          now={70}
-                        />
                       </Tooltip>
                     }
                   >
