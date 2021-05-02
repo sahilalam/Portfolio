@@ -11,6 +11,9 @@ body {
 .width-100 {
   width: 100%;
 }
+.width-fit {
+  width: fit-content;
+}
 .text-align-right {
   text-align: right;
 }
@@ -20,17 +23,17 @@ body {
 .jumbotron {
   position: relative;
   border-radius: 0px;
-  animation: transition 3s;
+  animation: transition 2s;
   align-items: center;
 }
 .top-animation {
   position: relative;
 
-  animation: top 3s ease;
+  animation: top 2s ease;
 }
 .bottom-animation {
   position: relative;
-  animation: bottom 3s ease;
+  animation: bottom 2s ease;
   opacity: 1;
 }
 @keyframes bottom {
@@ -147,12 +150,14 @@ body {
 }
 .header {
   border-radius: 10px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0px 0px 20px black;
   height: max-content;
   background: linear-gradient(rgba(0, 0, 0, 0.308), rgb(0, 0, 0)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/BG.gif");
   background-size: cover;
   background-position: center;
+  border-right: 10px solid rgb(1, 118, 172);
+  border-left: 10px solid rgb(1, 118, 172);
 }
 
 .header2 {
@@ -193,7 +198,7 @@ body {
 .logo-md:hover {
   transform: scale(1.2, 1.2);
   border: 2px solid rgb(0, 132, 209);
-  box-shadow: 0px 0px 50px rgb(39, 39, 39);
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
 }
 .logo-md:active {
   transform: scale(1, 1);
@@ -230,7 +235,7 @@ body {
 .card-big {
   background-color: rgba(49, 49, 49, 0.644);
   box-shadow: 2px 2px 10px rgb(66, 66, 66);
-  transition: 0.5s;
+  transition: 0.3s;
   text-align: left;
   border-radius: 10px;
   border: 2px solid rgba(255, 255, 255, 0.062);
@@ -353,6 +358,7 @@ body {
 }
 .navlink:hover {
   border-radius: 5px;
+  box-shadow: 0px 0px 20px rgb(29, 29, 29);
   background-color: rgba(0, 0, 0, 0.281);
   border-left: 5px solid rgb(0, 60, 255);
   border-right: 5px solid rgb(0, 60, 255);

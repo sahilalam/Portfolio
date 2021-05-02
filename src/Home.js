@@ -14,7 +14,7 @@ export default function Home() {
     <div className="container-fluid">
       <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
         <Row className="align-items-center p-1 pt-5 header">
-          <Col xs="12" md="6" className="text-left top-animation pb-0 mb-0 ">
+          <Col xs="12" md="6" className="text-center top-animation pb-0 mb-0 ">
             <img
               className="logo p-2"
               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
@@ -32,9 +32,9 @@ export default function Home() {
               <br />
             </Col>
           </Col>
-          <Col xs="12" className="m-0 mt-3 mb-3 p-3">
+          <Col className="m-0 mt-3 mb-3 p-3 ">
             <Row>
-              <Col xs="12" className="text-center box-body">
+              <Col className="text-center box-body">
                 Key_Skills :
                 <OverlayTrigger
                   placement="top"
@@ -141,7 +141,7 @@ export default function Home() {
                   overlay={<Tooltip>LinkedIn</Tooltip>}
                 >
                   <img
-                    className="logo-md p-2 box-shadow-dark bg-light"
+                    className="logo-md p-2 box-shadow-dark bg-dark"
                     src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
                   />
                 </OverlayTrigger>
