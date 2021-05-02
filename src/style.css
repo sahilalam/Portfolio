@@ -23,55 +23,55 @@ body {
 .jumbotron {
   position: relative;
   border-radius: 0px;
-  animation: transition 2s;
+  animation: transition 2s ease-in-out;
   align-items: center;
 }
 .top-animation {
   position: relative;
 
-  animation: top 2s ease;
+  animation: top 2s ease-in-out;
 }
 .bottom-animation {
   position: relative;
-  animation: bottom 2s ease;
+  animation: bottom 2s ease-in-out;
   opacity: 1;
 }
 @keyframes bottom {
   0% {
-    top: 100vh;
+    top: 100px;
     opacity: 0;
-    left: 100vw;
+    left: 100px;
   }
   70% {
     opacity: 0.5;
   }
   100% {
-    top: 0vh;
+    top: 0px;
     opacity: 1;
-    left: 0vw;
+    left: 0px;
   }
 }
 @keyframes top {
   0% {
-    bottom: 100vh;
+    bottom: 100px;
     opacity: 0;
   }
   70% {
     opacity: 0.5;
   }
   100% {
-    bottom: 0vh;
+    bottom: 0px;
     opacity: 1;
   }
 }
 @keyframes transition {
   0% {
-    right: 100vw;
+    right: 100px;
     opacity: 0;
   }
 
   100% {
-    right: 0vw;
+    right: 0px;
     opacity: 1;
   }
 }
@@ -226,16 +226,17 @@ body {
 .card {
   background-color: rgba(49, 49, 49, 0.719);
   box-shadow: 2px 2px 10px darkcyan;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
   text-align: left;
   border-radius: 0px;
   border: 2px solid rgba(255, 255, 255, 0.062);
   border-left: 10px solid rgb(1, 118, 172);
 }
 .card-big {
-  background-color: rgba(49, 49, 49, 0.644);
+  background-color: rgba(39, 39, 39, 0.699);
+
   box-shadow: 2px 2px 10px rgb(66, 66, 66);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
   text-align: left;
   border-radius: 10px;
   border: 2px solid rgba(255, 255, 255, 0.062);
@@ -247,7 +248,7 @@ body {
   border-radius: 20px;
   background-color: black;
   border: 0px solid rgb(0, 206, 209);
-  animation: bar 2s;
+  animation: bar 1s ease-in-out;
   box-shadow: 0px 0px 10px cyan;
   border-left: 5px solid rgb(0, 98, 209);
   border-right: 5px solid rgb(0, 98, 209);
@@ -266,7 +267,8 @@ body {
   }
 }
 .card-big:hover {
-  background-color: rgba(39, 39, 39, 0.952);
+  background-color: rgba(49, 49, 49, 0.644);
+
   transform: scale(1.03, 1);
   box-shadow: 10px 10px 30px rgb(0, 179, 224);
 
