@@ -36,7 +36,12 @@ export default function App() {
               </NavLink>
             </Nav>
             <Nav>
-              <NavLink className="nav-link" to="/contact" />
+              <a
+                className="nav-link navlink"
+                href="https://drive.google.com/file/d/1W2DuL7rzLjXi1-lWKiHpUDHw6He432rq/view?usp=sharing"
+              >
+                RESUME
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
