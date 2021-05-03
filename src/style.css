@@ -293,14 +293,23 @@ body {
     width: 100%;
   }
 }
-
-.card:hover,
 .card-right:hover {
   background-color: rgba(39, 39, 39, 0.952);
 
   transform: translate(-10px, -10px);
 
-  box-shadow: 10px 10px 30px rgb(0, 179, 224);
+  box-shadow: 10px 10px 30px rgb(51, 51, 51);
+  border-radius: 10px;
+  z-index: 1;
+  border-right: 10px solid rgb(1, 118, 172);
+  border-left: 10px solid rgb(1, 118, 172);
+}
+.card:hover {
+  background-color: rgba(39, 39, 39, 0.952);
+
+  transform: translate(10px, -10px);
+
+  box-shadow: 10px 10px 30px rgb(51, 51, 51);
   border-radius: 10px;
   z-index: 1;
   border-right: 10px solid rgb(1, 118, 172);
@@ -336,7 +345,7 @@ body {
   box-shadow: 0px 0px 0px rgb(0, 84, 209);
   border-radius: 10px;
   transition: 0.5s;
-  border: 2px solid rgba(255, 255, 255, 0.233);
+  border: 2px solid rgba(255, 255, 255, 0);
 }
 
 .project-image:hover {
@@ -378,13 +387,15 @@ body {
   background-color: darkslategrey;
 }
 .navlink {
-  transition: 0s;
+  transition: 1s;
   width: fit-content;
 }
 .navlink:hover {
   border-radius: 5px;
-  box-shadow: 0px 0px 20px rgb(29, 29, 29);
-  background-color: rgba(0, 0, 0, 0.281);
-  border-left: 5px solid rgb(0, 60, 255);
-  border-right: 5px solid rgb(0, 60, 255);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.623);
+  background-color: rgba(255, 255, 255, 0.103);
+}
+.navlink:active {
+  background-color: transparent;
+  box-shadow: 0px 0px 5px rgb(29, 29, 29);
 }
