@@ -385,6 +385,7 @@ body {
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
   background-size: cover;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 #main-nav {
   background-color: darkslategrey;

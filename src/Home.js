@@ -28,77 +28,99 @@ export default function Home() {
             </Col>
 
             <Col xs="12" md="6" className="box-body">
-              <Col xs="12" md="10" className="top-animation pb-0 mb-0">
-                <h1 className="heading ">Sahil Alam</h1>
+              <Col xs="12" md="10" className=" pb-0 mb-0">
+                <ScrollAnimation
+                  animateIn="bounceInRight"
+                  duration={2}
+                  delay={500}
+                >
+                  <h1 className="heading ">Sahil Alam</h1>
+                </ScrollAnimation>
               </Col>
 
-              <Col xs="12" md="7" className="text-center bottom-animation">
-                <p className="text-animation mb-0 pb-0" />
+              <Col xs="12" md="7" className="text-center">
+                <ScrollAnimation
+                  animateIn="bounceInLeft"
+                  duration={2}
+                  delay={500}
+                >
+                  <p className="text-animation mb-0 pb-0" />
 
-                <br />
-                <br />
+                  <br />
+                  <br />
+                </ScrollAnimation>
               </Col>
             </Col>
 
             <Col className="m-0 mt-3 mb-3 p-3 ">
-              <ScrollAnimation animateIn="bounceInRight" duration={2} delay={1}>
+              <ScrollAnimation
+                animateIn="bounceInLeft"
+                duration={2}
+                delay={1000}
+              >
                 <Row>
                   <Col className="text-center box-body">
-                    Key_Skills :
-                    <OverlayTrigger
-                      placement="top"
-                      overlay={<Tooltip>Bootstrap</Tooltip>}
+                    <ScrollAnimation
+                      animateIn="bounceInRight"
+                      duration={2}
+                      delay={2000}
                     >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
-                      />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="bottom"
-                      overlay={<Tooltip>HTML</Tooltip>}
-                    >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
-                      />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="top"
-                      overlay={<Tooltip>CSS</Tooltip>}
-                    >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
-                      />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="bottom"
-                      overlay={<Tooltip>React</Tooltip>}
-                    >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
-                      />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="top"
-                      overlay={<Tooltip>Node.JS</Tooltip>}
-                    >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
-                      />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="bottom"
-                      overlay={<Tooltip>MongoDB</Tooltip>}
-                    >
-                      <img
-                        className="logo-md p-2 m-1"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
-                      />
-                    </OverlayTrigger>
+                      Key_Skills :
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>Bootstrap</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                        />
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="bottom"
+                        overlay={<Tooltip>HTML</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
+                        />
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>CSS</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
+                        />
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="bottom"
+                        overlay={<Tooltip>React</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
+                        />
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>Node.JS</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
+                        />
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="bottom"
+                        overlay={<Tooltip>MongoDB</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 m-1"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
+                        />
+                      </OverlayTrigger>
+                    </ScrollAnimation>
                   </Col>
                 </Row>
               </ScrollAnimation>
