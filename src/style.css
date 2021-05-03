@@ -173,26 +173,35 @@ body {
 .logo {
   width: 50%;
   border-radius: 50%;
+
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.774);
   animation: rotate 6s infinite;
   overflow: visible;
 }
+.logo-container {
+  transition: 2s;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+}
+.logo-container:hover {
+  transform: rotate(360deg);
+}
 @keyframes rotate {
   0% {
-    transform-origin: left;
-    transform: translate(10px, 10px);
+    transform: translate(0px, 10px);
   }
   25% {
-    transform: translate(10px, -10px);
+    transform: translate(0px, -10px);
   }
   50% {
-    transform: translate(-10px, 10px);
+    transform: translate(0px, 10px);
   }
   75% {
-    transform: translate(-10px, -10px);
+    transform: translate(0px, -10px);
   }
   100% {
-    transform: translate(10px, 10px);
+    transform: translate(0px, 10px);
   }
 }
 .logo-sm {
@@ -205,7 +214,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0);
 }
 .logo-md:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2) rotate(360deg);
   border: 2px solid rgb(0, 132, 209);
   box-shadow: 0px 0px 30px rgb(0, 0, 0);
 }

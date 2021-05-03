@@ -39,6 +39,7 @@ export default function App() {
               <a
                 className="nav-link navlink"
                 href="https://drive.google.com/file/d/1W2DuL7rzLjXi1-lWKiHpUDHw6He432rq/view?usp=sharing"
+                target="_blank"
               >
                 RESUME
               </a>

@@ -19,17 +19,17 @@ export default function Home() {
             <Col
               xs="12"
               md="6"
-              className="text-center top-animation pb-0 mb-0 "
+              className="text-center logo-container top-animation pb-0 mb-0 "
             >
               <img
-                className="logo p-2"
+                className="logo  p-2"
                 src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
               />
             </Col>
 
             <Col xs="12" md="6" className="box-body">
               <Col xs="12" md="10" className="top-animation pb-0 mb-0">
-                <h1 className="heading">Sahil Alam</h1>
+                <h1 className="heading ">Sahil Alam</h1>
               </Col>
 
               <Col xs="12" md="7" className="text-center bottom-animation">
