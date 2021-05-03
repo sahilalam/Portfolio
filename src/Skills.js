@@ -26,7 +26,6 @@ function Skills() {
                   <ScrollAnimation
                     animateIn="bounceInRight"
                     animateOut="bounceOutRight"
-                    initiallyVisible={true}
                     animatePreScroll={true}
                     duraion={0}
                     delay={0}
@@ -39,8 +38,8 @@ function Skills() {
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation
-                    animateIn="bounceInLeft"
-                    animateOut="bounceOutLeft"
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
                     duraion={0}
                   >
                     <OverlayTrigger
@@ -74,7 +73,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -106,7 +110,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -138,7 +147,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -170,7 +184,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -216,7 +235,6 @@ function Skills() {
                   <ScrollAnimation
                     animateIn="bounceInLeft"
                     animateOut="bounceOutLeft"
-                    initiallyVisible={true}
                     animatePreScroll={false}
                     duraion={0}
                     delay={0}
@@ -226,8 +244,8 @@ function Skills() {
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation
-                    animateIn="bounceInRight"
-                    animateOut="bounceOutRight"
+                    animateIn="fadeInRight"
+                    animateOut="fadeOutRight"
                     duraion={0}
                   >
                     <OverlayTrigger
@@ -261,7 +279,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInRight"
+                    animateOut="fadeOutRight"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -293,7 +316,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInRight"
+                    animateOut="fadeOutRight"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="bottom"
                       overlay={
@@ -338,7 +366,6 @@ function Skills() {
                   <ScrollAnimation
                     animateIn="bounceInRight"
                     animateOut="bounceOutRight"
-                    initiallyVisible={true}
                     animatePreScroll={false}
                     duraion={0}
                     delay={0}
@@ -351,8 +378,8 @@ function Skills() {
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation
-                    animateIn="bounceInLeft"
-                    animateOut="bounceOutLeft"
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
                     duraion={0}
                   >
                     <OverlayTrigger
@@ -386,7 +413,12 @@ function Skills() {
                         </Row>
                       </Col>
                     </OverlayTrigger>
-
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutLeft"
+                    duraion={0}
+                  >
                     <OverlayTrigger
                       placement="top"
                       overlay={
