@@ -343,7 +343,7 @@ body {
 }
 #root {
   background: radial-gradient(rgba(255, 255, 255, 0.897), rgba(0, 0, 0, 0.637)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
   background-size: cover;
   min-height: 100vh;
 }
