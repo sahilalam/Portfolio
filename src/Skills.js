@@ -43,7 +43,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">8 / 10</div>
@@ -80,7 +80,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">8 / 10</div>
@@ -117,7 +117,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">7 / 10</div>
@@ -154,7 +154,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">8 / 10</div>
@@ -191,7 +191,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">8 / 10</div>
@@ -249,7 +249,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="left"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">7 / 10</div>
@@ -286,7 +286,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="left"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">7 / 10</div>
@@ -323,7 +323,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="left"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">7 / 10</div>
@@ -383,7 +383,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="bottom"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">8 / 10</div>
@@ -420,7 +420,7 @@ function Skills() {
                     duraion={0}
                   >
                     <OverlayTrigger
-                      placement="top"
+                      placement="right"
                       overlay={
                         <Tooltip className="box-head">
                           <div className="text">7 / 10</div>
