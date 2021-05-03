@@ -241,6 +241,15 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.062);
   border-left: 10px solid rgb(1, 118, 172);
 }
+.card-right {
+  background-color: rgba(49, 49, 49, 0.719);
+  box-shadow: 2px 2px 10px darkcyan;
+  transition: 0.5s ease-in-out;
+  text-align: left;
+  border-radius: 0px;
+  border: 2px solid rgba(255, 255, 255, 0.062);
+  border-right: 10px solid rgb(1, 118, 172);
+}
 .card-big {
   background-color: rgba(39, 39, 39, 0.815);
 
@@ -275,15 +284,9 @@ body {
     width: 100%;
   }
 }
-.card-big:hover {
-  background-color: rgba(49, 49, 49, 0.644);
 
-  transform: translate(-10px, -10px);
-  box-shadow: 10px 10px 30px rgb(0, 179, 224);
-
-  z-index: 1;
-}
-.card:hover {
+.card:hover,
+.card-right:hover {
   background-color: rgba(39, 39, 39, 0.952);
 
   transform: translate(-10px, -10px);
@@ -294,7 +297,13 @@ body {
   border-right: 10px solid rgb(1, 118, 172);
   border-left: 10px solid rgb(1, 118, 172);
 }
-
+.con {
+  background-color: rgba(0, 0, 0, 0);
+}
+.con-right {
+  background-color: rgba(0, 0, 0, 0);
+  border-right: 5px solid rgba(0, 238, 255, 0.541);
+}
 #skills {
 }
 .projects-nav {
@@ -351,7 +360,7 @@ body {
   box-shadow: 0px 0px 10px darkslategray;
 }
 #root {
-  background: radial-gradient(rgba(255, 255, 255, 0.897), rgba(0, 0, 0, 0.637)),
+  background: radial-gradient(rgba(255, 255, 255, 0.726), rgba(0, 0, 0, 0.637)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
   background-size: cover;
   min-height: 100vh;
