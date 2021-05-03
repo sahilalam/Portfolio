@@ -153,7 +153,7 @@ body {
   box-shadow: 0px 0px 20px black;
   height: max-content;
   background: linear-gradient(rgba(0, 0, 0, 0.308), rgb(0, 0, 0)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/BG.gif");
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
   background-size: cover;
   background-position: center;
   border-right: 10px solid rgb(1, 118, 172);
@@ -343,7 +343,7 @@ body {
 }
 #root {
   background: radial-gradient(rgba(255, 255, 255, 0.897), rgba(0, 0, 0, 0.637)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
   background-size: cover;
   min-height: 100vh;
 }
