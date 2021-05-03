@@ -353,7 +353,7 @@ body {
   align-self: center;
   z-index: 1;
   box-shadow: 10px 10px 40px rgb(0, 0, 0);
-  transform: scale(1.1, 1.1) translate(-30px, 0px);
+  transform: translate(-10px, -10px);
   border: 2px solid rgb(0, 115, 209);
 }
 .project-image:active {
