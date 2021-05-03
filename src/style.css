@@ -173,17 +173,26 @@ body {
 .logo {
   width: 50%;
   border-radius: 50%;
-  box-shadow: 2px 2px 30px rgb(255, 255, 255);
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.774);
   animation: rotate 6s infinite;
   overflow: visible;
 }
 @keyframes rotate {
-  25% {
-    transform: rotate(20deg);
+  0% {
+    transform-origin: left;
+    transform: translate(10px, 10px);
   }
-
+  25% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
   75% {
-    transform: rotate(-20deg);
+    transform: translate(-10px, -10px);
+  }
+  100% {
+    transform: translate(10px, 10px);
   }
 }
 .logo-sm {
