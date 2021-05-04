@@ -21,7 +21,7 @@ export default function Home() {
               md="6"
               className="text-center logo-container top-animation pb-0 mb-0 "
             >
-              <ScrollAnimation animateIn="zoomInDown" duration={2} delay={1000}>
+              <ScrollAnimation animateIn="fadeIn" duration={2} delay={3000}>
                 <img
                   className="logo  p-2"
                   src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
