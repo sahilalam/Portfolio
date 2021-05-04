@@ -21,14 +21,12 @@ export default function Home() {
               md="6"
               className="text-center logo-container top-animation pb-0 mb-0 "
             >
-              <ScrollAnimation animateIn="zoomInDown" duration={2} delay={3000}>
-                <Col xs="12" className="p-0 m-0">
-                  <img
-                    className="logo  p-2"
-                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
-                  />
-                </Col>
-              </ScrollAnimation>
+              <Col xs="12" className="p-0 m-0">
+                <img
+                  className="logo  p-2"
+                  src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
+                />
+              </Col>
             </Col>
 
             <Col xs="12" md="6" className="box-body">
