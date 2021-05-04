@@ -295,7 +295,7 @@ body {
   }
 }
 .card-right:hover {
-  background-color: rgba(39, 39, 39, 0.952);
+  background-color: rgba(80, 79, 79, 0.952);
 
   transform: translate(-10px, -10px);
 
@@ -306,7 +306,7 @@ body {
   border-left: 10px solid rgb(1, 118, 172);
 }
 .card:hover {
-  background-color: rgba(39, 39, 39, 0.952);
+  background-color: rgba(80, 79, 79, 0.952);
 
   transform: translate(10px, -10px);
 
