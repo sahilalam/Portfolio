@@ -9,7 +9,7 @@ import Fullstack from "./Fullstack.js";
 export default function Projects() {
   return (
     <BrowserRouter>
-      <div className="container-fluid text-center" id="projects">
+      <div className="container-fluid text-center " id="projects">
         <Row className="justify-content-center">
           <Navbar
             collapseOnSelect

@@ -4,114 +4,92 @@ import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 export default function Frontend() {
   return (
     <Row className="justify-content-center p-1 pt-5">
-      <Col xs="12" md="4" className="p-2 m-3">
-        <Row className="justify-content-center p-1">
-          <Col xs="12" className="p-2 m-3 ">
+      <Col xs="12" md="6" className="p-5 m-0 scroll project-con">
+        <Row className="justify-content-center p-1 pt-5 pb-5">
+          <Col xs="12" className="p-0 m-1 ">
             <ScrollAnimation
-              animateIn="fadeInRight"
-              animateOut="fadeOutRight"
-              duration={2}
+              animateIn="zoom-in"
+              animateOut="zoom-out"
+              scrollableParentSelector=".scroll"
+              offset={400}
             >
               <Row className="justify-content-center">
-                <Col xs="11" className=" p-2">
-                  <OverlayTrigger
-                    placement="auto"
-                    overlay={
-                      <Tooltip className="bg-dark project-body p-3">
-                        <Col xs="12" className="project-head p-2 mb-3">
-                          Spotify-Playlists
-                        </Col>
-                        A site where you can manage your spotify playlists.
-                      </Tooltip>
-                    }
+                <Col xs="11" className=" p-0">
+                  <a
+                    href="https://sahilalam.github.io/SpotifyPlaylist/"
+                    target="_blank"
                   >
-                    <a
-                      href="https://sahilalam.github.io/SpotifyPlaylist/"
-                      target="_blank"
+                    <Col
+                      xs="12"
+                      className="pi p-0 m-0"
+                      id="Spotify Playlists"
+                      alt="A site where you can manage your spotify playlists."
                     >
-                      <Col
-                        xs="12"
-                        className="pi p-0 m-0"
-                        title="Spotify Playlists"
-                      >
-                        <img
-                          className="project-image mb-3"
-                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/spotify.PNG"
-                        />
-                      </Col>
-                    </a>
-                  </OverlayTrigger>
+                      <img
+                        className="project-image m-0 p-0"
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/spotify.PNG"
+                      />
+                    </Col>
+                  </a>
                 </Col>
               </Row>
             </ScrollAnimation>
           </Col>
-          <Col xs="12" className="p-2 m-3 ">
+          <Col xs="12" className="p-0 m-1 ">
             <ScrollAnimation
-              animateIn="fadeInLeft"
-              animateOut="fadeOutLeft"
-              duration={2}
+              animateIn="zoom-in"
+              animateOut="zoom-out"
+              scrollableParentSelector=".scroll"
+              offset={400}
             >
               <Row className="justify-content-center">
-                <Col xs="11" className=" p-2">
-                  <OverlayTrigger
-                    placement="auto"
-                    overlay={
-                      <Tooltip className="bg-dark project-body p-3">
-                        <Col xs="12" className="project-head p-2 mb-3">
-                          Tv-Shows
-                        </Col>
-                        A site where you can search the details of various
-                        famous tv shows and series.
-                      </Tooltip>
-                    }
+                <Col xs="11" className=" p-0">
+                  <a
+                    href="https://sahilalam.github.io/TV-Shows/"
+                    target="_blank"
                   >
-                    <a
-                      href="https://sahilalam.github.io/TV-Shows/"
-                      target="_blank"
+                    <Col
+                      xs="12"
+                      className="pi p-0 m-0"
+                      id="Tv Shows"
+                      alt=" A site where you can search the details of various
+                        famous tv shows and series."
                     >
-                      <Col xs="12" className="pi p-0 m-0" title="Tv Shows">
-                        <img
-                          className="project-image mb-3"
-                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/tv.PNG"
-                        />
-                      </Col>
-                    </a>
-                  </OverlayTrigger>
+                      <img
+                        className="project-image m-0 p-0"
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/tv.PNG"
+                      />
+                    </Col>
+                  </a>
                 </Col>
               </Row>
             </ScrollAnimation>
           </Col>
-          <Col xs="12" className="p-2 m-3 ">
+          <Col xs="12" className="p-0 m-1 ">
             <ScrollAnimation
-              animateIn="fadeInRight"
-              animateOut="fadeOutRight"
-              duration={2}
+              animateIn="zoom-in"
+              animateOut="zoom-out"
+              scrollableParentSelector=".scroll"
+              offset={400}
             >
               <Row className="justify-content-center">
-                <Col xs="11" className=" p-2">
-                  <OverlayTrigger
-                    placement="auto"
-                    overlay={
-                      <Tooltip className="bg-dark project-body p-3">
-                        <Col xs="12" className="project-head p-2 mb-3">
-                          Basic To-Do
-                        </Col>
-                        A website to add,edit,or delete your todods.
-                      </Tooltip>
-                    }
+                <Col xs="11" className=" p-0">
+                  <a
+                    href="https://todoreactappsa.herokuapp.com/"
+                    target="_blank"
                   >
-                    <a
-                      href="https://todoreactappsa.herokuapp.com/"
-                      target="_blank"
+                    <Col
+                      xs="12"
+                      className="pi p-0 m-0"
+                      id="Basic To Do"
+                      alt=" A website to add,edit,or delete your todods."
                     >
-                      <Col xs="12" className="pi p-0 m-0" title="Basic To Do">
-                        <img
-                          className="project-image mb-3"
-                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/todo.PNG"
-                        />
-                      </Col>
-                    </a>
-                  </OverlayTrigger>
+                      <img
+                        className="project-image m-0 p-0"
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/todo.PNG"
+                      />
+                    </Col>
+                  </a>
                 </Col>
               </Row>
             </ScrollAnimation>

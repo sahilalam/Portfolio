@@ -10,7 +10,7 @@ import {
 
 function Skills() {
   return (
-    <div className="container-fluid bg-trnsparent" id="skills">
+    <div className="container-fluid bg-trnsparent scroll" id="skills">
       <Row className="justify-content-center p-1">
         <Col
           xs="12"
@@ -29,6 +29,7 @@ function Skills() {
                     animatePreScroll={true}
                     duraion={0}
                     delay={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <Col
                       xs="12"
@@ -41,6 +42,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -78,6 +80,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -115,6 +118,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -152,6 +156,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -189,6 +194,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -238,6 +244,7 @@ function Skills() {
                     animatePreScroll={false}
                     duraion={0}
                     delay={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <Col xs="12" className="bg-transparent mb-4 p-2 ">
                       <h3>Back-End</h3>
@@ -247,6 +254,7 @@ function Skills() {
                     animateIn="fadeInRight"
                     animateOut="fadeOutRight"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -284,6 +292,7 @@ function Skills() {
                     animateIn="fadeInRight"
                     animateOut="fadeOutRight"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -321,6 +330,7 @@ function Skills() {
                     animateIn="fadeInRight"
                     animateOut="fadeOutRight"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -369,6 +379,7 @@ function Skills() {
                     animatePreScroll={false}
                     duraion={0}
                     delay={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <Col
                       xs="12"
@@ -381,6 +392,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"
@@ -418,6 +430,7 @@ function Skills() {
                     animateIn="fadeInLeft"
                     animateOut="fadeOutLeft"
                     duraion={0}
+                    scrollableParentSelector=".scroll"
                   >
                     <OverlayTrigger
                       placement="auto"

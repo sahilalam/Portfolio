@@ -9,7 +9,7 @@ import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
 export default function App() {
   return (
-    <div id="home">
+    <div className="">
       <BrowserRouter>
         <Navbar
           collapseOnSelect

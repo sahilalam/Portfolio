@@ -324,11 +324,11 @@ body {
   border-right: 5px solid rgba(0, 238, 255, 0.24);
 }
 #skills {
+  height: 80vh;
 }
 .projects-nav {
-  width: fit-content;
   border-radius: 10px;
-  box-shadow: 2px 2px 20px rgb(75, 74, 74);
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
 }
 .project {
 }
@@ -346,45 +346,81 @@ body {
   box-shadow: 0px 0px 40px rgb(0, 0, 0);
   border-radius: 10px;
   transition: 1s;
-  border: 2px solid rgba(255, 255, 255, 0);
-  z-index: 1;
+
+  z-index: 0;
 }
 .pi {
+  position: relative;
+  z-index: 0;
+
   transition: 0.5s;
 }
 
 .pi:before {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   overflow: hidden;
-  border-radius: 10px;
+  content: attr(id);
+  height: 0%;
+  color: transparent;
+
+  width: 100%;
+  z-index: 0;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.pi:after {
+  overflow: hidden;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   height: 0%;
   content: "";
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   transition: 0.5s;
   position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0);
-  border-left: 5px solid rgb(0, 98, 209);
-  border-right: 5px solid rgb(0, 98, 209);
 }
 .pi:hover {
-  transform: translate(-10px, -10px) scale(1.1, 1.1);
+  z-index: 1;
+  transform: scale(1.1, 1.1);
 }
 .pi:hover:before {
-  height: 300px;
-  padding-top: 50%;
-  content: attr(title);
+  border-top: 5px solid rgb(0, 98, 209);
+  border-left: 2px solid rgb(0, 98, 209);
+  border-right: 2px solid rgb(0, 98, 209);
+  height: 20%;
+
   color: white;
   font-size: larger;
   background-color: rgba(0, 0, 0, 0.781);
-  z-index: 0;
+  z-index: 1;
   box-shadow: 10px 10px 40px rgb(0, 0, 0);
 }
-.project-image:active {
+.pi:hover:after {
+  padding: 20%;
+  border-bottom: 5px solid rgb(0, 98, 209);
+  height: 80%;
+  font-family: "Courier New", Courier, monospace;
+  content: attr(alt);
+  color: white;
+  font-size: small;
+  background-color: rgba(0, 0, 0, 0.781);
+  z-index: 1;
+  box-shadow: 10px 10px 40px rgb(0, 0, 0);
+}
+
+.pi:active {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
   transform: scale(1, 1);
 }
 #projects {
-  min-height: 100vh;
 }
 .project-body {
   background-color: transparent;
@@ -408,14 +444,12 @@ body {
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
   background-size: cover;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 #main-nav {
   background-color: darkslategrey;
 }
 .navlink {
   transition: 1s;
-  width: fit-content;
 }
 .navlink:hover {
   border-radius: 5px;
@@ -425,4 +459,54 @@ body {
 .navlink:active {
   background-color: transparent;
   box-shadow: 0px 0px 5px rgb(29, 29, 29);
+}
+.project-con {
+  height: 70vh;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.514);
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.scroll {
+  overflow: scroll;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+#home {
+  overflow: hidden;
+}
+.zoom-in {
+  transition: 0.5s;
+  animation: zoomin 3s ease-in;
+}
+@keyframes zoomin {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+.zoom-out {
+  transition: 0.5s;
+  animation: zoomout 3s ease-out;
+}
+@keyframes zoomout {
+  0% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
 }

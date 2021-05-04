@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="home">
       <ScrollAnimation animateIn="fadeInLeft" duration={1}>
         <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
           <Row className="align-items-center p-1 pt-5 header">
