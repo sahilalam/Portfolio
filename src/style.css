@@ -347,14 +347,37 @@ body {
   border-radius: 10px;
   transition: 1s;
   border: 2px solid rgba(255, 255, 255, 0);
+  z-index: 1;
+}
+.pi {
+  transition: 0.5s;
 }
 
-.project-image:hover {
-  align-self: center;
+.pi:before {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 0%;
+  content: "";
+  width: 100%;
   z-index: 1;
+  transition: 0.5s;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border-left: 5px solid rgb(0, 98, 209);
+  border-right: 5px solid rgb(0, 98, 209);
+}
+.pi:hover {
+  transform: translate(-10px, -10px) scale(1.1, 1.1);
+}
+.pi:hover:before {
+  height: 300px;
+  padding-top: 50%;
+  content: attr(title);
+  color: white;
+  font-size: larger;
+  background-color: rgba(0, 0, 0, 0.781);
+  z-index: 0;
   box-shadow: 10px 10px 40px rgb(0, 0, 0);
-  transform: translate(-10px, -10px);
-  border: 2px solid rgb(0, 115, 209);
 }
 .project-image:active {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
