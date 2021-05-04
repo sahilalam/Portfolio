@@ -21,7 +21,7 @@ export default function Home() {
               md="6"
               className="text-center logo-container top-animation pb-0 mb-0 "
             >
-              <ScrollAnimation animateIn="zoomInDown" duration={2} delay={3000}>
+              <ScrollAnimation animateIn="zoomInDown" duration={2} delay={1000}>
                 <img
                   className="logo  p-2"
                   src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
@@ -134,7 +134,10 @@ export default function Home() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="https://www.codechef.com/users/sahilalam">
+                <Nav.Link
+                  href="https://www.codechef.com/users/sahilalam"
+                  target="_blank"
+                >
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>CodeChef</Tooltip>}
@@ -145,7 +148,10 @@ export default function Home() {
                     />
                   </OverlayTrigger>
                 </Nav.Link>
-                <Nav.Link href="https://leetcode.com/alamsahil939/">
+                <Nav.Link
+                  href="https://leetcode.com/alamsahil939/"
+                  target="_blank"
+                >
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>LeetCode</Tooltip>}
@@ -156,7 +162,7 @@ export default function Home() {
                     />
                   </OverlayTrigger>
                 </Nav.Link>
-                <Nav.Link href="https://github.com/sahilalam">
+                <Nav.Link href="https://github.com/sahilalam" target="_blank">
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>github</Tooltip>}
@@ -170,7 +176,10 @@ export default function Home() {
               </Nav>
               <Navbar.Brand href="#home">Contact Me</Navbar.Brand>
               <Nav>
-                <Nav.Link href="https://www.linkedin.com/in/sahil-alam-1b3024179/">
+                <Nav.Link
+                  href="https://www.linkedin.com/in/sahil-alam-1b3024179/"
+                  target="_blank"
+                >
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>LinkedIn</Tooltip>}
@@ -181,7 +190,7 @@ export default function Home() {
                     />
                   </OverlayTrigger>
                 </Nav.Link>
-                <Nav.Link href="mailto:alamsahil939@gmail.com">
+                <Nav.Link href="mailto:alamsahil939@gmail.com" target="_blank">
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>alamsahil939@gmail.com</Tooltip>}
@@ -192,7 +201,10 @@ export default function Home() {
                     />
                   </OverlayTrigger>
                 </Nav.Link>
-                <Nav.Link href="https://api.whatsapp.com/send?phone=+917011498951">
+                <Nav.Link
+                  href="https://api.whatsapp.com/send?phone=+917011498951"
+                  target="_blank"
+                >
                   <OverlayTrigger
                     placement="top"
                     overlay={<Tooltip>+91 7011498951</Tooltip>}

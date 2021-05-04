@@ -27,7 +27,7 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://blogger-app.vercel.app/">
+                    <a href="https://blogger-app.vercel.app/" target="_blank">
                       <Col xs="12" className="pi p-0 m-0" title="Blogger">
                         <img
                           className="project-image p-0 m-0 mb-3"
@@ -61,7 +61,10 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="http://url-shortener-lake.vercel.app/">
+                    <a
+                      href="http://url-shortener-lake.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Url-Shortener">
                         <img
                           className="project-image mb-3"
@@ -94,7 +97,10 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://money-manager-seven.vercel.app/">
+                    <a
+                      href="https://money-manager-seven.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Money Manager">
                         <img
                           className="project-image mb-3"
@@ -126,7 +132,10 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://sahilalam.github.io/SpotifyPlaylist/">
+                    <a
+                      href="https://sahilalam.github.io/SpotifyPlaylist/"
+                      target="_blank"
+                    >
                       <Col
                         xs="12"
                         className="pi p-0 m-0"
@@ -163,7 +172,10 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://sahilalam.github.io/TV-Shows/">
+                    <a
+                      href="https://sahilalam.github.io/TV-Shows/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Tv Shows">
                         <img
                           className="project-image mb-3"
@@ -195,7 +207,10 @@ export default function All() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://todoreactappsa.herokuapp.com/">
+                    <a
+                      href="https://todoreactappsa.herokuapp.com/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Basic To Do">
                         <img
                           className="project-image mb-3"

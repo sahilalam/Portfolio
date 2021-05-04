@@ -26,7 +26,10 @@ export default function Fullstack() {
                       </Tooltip>
                     }
                   >
-                    <a href="http://url-shortener-lake.vercel.app/">
+                    <a
+                      href="http://url-shortener-lake.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Url-Shortener">
                         <img
                           className="project-image mb-3"
@@ -59,7 +62,10 @@ export default function Fullstack() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://money-manager-seven.vercel.app/">
+                    <a
+                      href="https://money-manager-seven.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Money Manager">
                         <img
                           className="project-image mb-3"
@@ -93,7 +99,7 @@ export default function Fullstack() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://blogger-app.vercel.app/">
+                    <a href="https://blogger-app.vercel.app/" target="_blank">
                       <Col xs="12" className="pi p-0 m-0" title="Blogger">
                         <img
                           className="project-image p-0 m-0 mb-3"

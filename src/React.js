@@ -3,10 +3,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 export default function Reactprojects() {
   return (
-     <Row className="justify-content-center p-1 pt-5">
+    <Row className="justify-content-center p-1 pt-5">
       <Col xs="12" md="4" className="p-2 m-3">
-    <Row className="justify-content-center p-1">
-      <Col xs="12" className="p-2 m-3">
+        <Row className="justify-content-center p-1">
+          <Col xs="12" className="p-2 m-3">
             <ScrollAnimation
               animateIn="fadeInLeft"
               animateOut="fadeOutLeft"
@@ -27,7 +27,7 @@ export default function Reactprojects() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://blogger-app.vercel.app/">
+                    <a href="https://blogger-app.vercel.app/" target="_blank">
                       <Col xs="12" className="pi p-0 m-0" title="Blogger">
                         <img
                           className="project-image p-0 m-0 mb-3"
@@ -40,7 +40,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-      <Col xs="12" className="p-2 m-3 ">
+          <Col xs="12" className="p-2 m-3 ">
             <ScrollAnimation
               animateIn="fadeInRight"
               animateOut="fadeOutRight"
@@ -60,7 +60,10 @@ export default function Reactprojects() {
                       </Tooltip>
                     }
                   >
-                    <a href="http://url-shortener-lake.vercel.app/">
+                    <a
+                      href="http://url-shortener-lake.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Url-Shortener">
                         <img
                           className="project-image mb-3"
@@ -73,7 +76,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-      <Col xs="12" className="p-2 m-3">
+          <Col xs="12" className="p-2 m-3">
             <ScrollAnimation
               animateIn="fadeInLeft"
               animateOut="fadeOutLeft"
@@ -93,7 +96,10 @@ export default function Reactprojects() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://money-manager-seven.vercel.app/">
+                    <a
+                      href="https://money-manager-seven.vercel.app/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Money Manager">
                         <img
                           className="project-image mb-3"
@@ -106,7 +112,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-      <Col xs="12" className="p-2 m-3 ">
+          <Col xs="12" className="p-2 m-3 ">
             <ScrollAnimation
               animateIn="fadeInRight"
               animateOut="fadeOutRight"
@@ -125,7 +131,10 @@ export default function Reactprojects() {
                       </Tooltip>
                     }
                   >
-                    <a href="https://todoreactappsa.herokuapp.com/">
+                    <a
+                      href="https://todoreactappsa.herokuapp.com/"
+                      target="_blank"
+                    >
                       <Col xs="12" className="pi p-0 m-0" title="Basic To Do">
                         <img
                           className="project-image mb-3"
@@ -138,8 +147,8 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-    </Row>
-    </Col>
+        </Row>
+      </Col>
     </Row>
   );
 }
