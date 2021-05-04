@@ -180,7 +180,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">

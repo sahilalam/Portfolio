@@ -80,7 +80,7 @@ export default function Home() {
                       >
                         <img
                           className="logo-md p-2 m-1"
-                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Bootstrap.png"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png"
                         />
                       </OverlayTrigger>
                       <OverlayTrigger

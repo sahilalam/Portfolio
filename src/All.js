@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import { Row, Col, OverlayTrigger, Tooltip, Carousel } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
 export default function All() {
   return (
     <Row className="justify-content-center p-1 pt-5  ">
