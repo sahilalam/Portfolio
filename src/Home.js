@@ -32,9 +32,9 @@ export default function Home() {
             <Col xs="12" md="6" className="box-body">
               <Col xs="12" md="10" className=" pb-0 mb-0">
                 <ScrollAnimation
-                  animateIn="bounceInRight"
+                  animateIn="fadeInRight"
                   duration={2}
-                  delay={500}
+                  delay={1000}
                 >
                   <h1 className="heading ">Sahil Alam</h1>
                 </ScrollAnimation>
@@ -42,9 +42,9 @@ export default function Home() {
 
               <Col xs="12" md="7" className="text-center">
                 <ScrollAnimation
-                  animateIn="bounceInLeft"
+                  animateIn="fadeInRight"
                   duration={2}
-                  delay={500}
+                  delay={2000}
                 >
                   <p className="text-animation mb-0 pb-0" />
 
@@ -56,16 +56,16 @@ export default function Home() {
 
             <Col className="m-0 mt-3 mb-3 p-3 ">
               <ScrollAnimation
-                animateIn="bounceInLeft"
+                animateIn="bounceInRight"
                 duration={2}
-                delay={1000}
+                delay={3000}
               >
                 <Row>
                   <Col className="text-center box-body">
                     <ScrollAnimation
-                      animateIn="bounceInRight"
+                      animateIn="bounceInLeft"
                       duration={2}
-                      delay={2000}
+                      delay={4000}
                     >
                       Key_Skills :
                       <OverlayTrigger
