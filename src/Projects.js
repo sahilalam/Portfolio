@@ -30,9 +30,6 @@ export default function Projects() {
             variant="dark"
             className="projects-nav top-animation"
           >
-            <NavLink to="/projects/all" className="navbar-brand">
-              Projects :
-            </NavLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
