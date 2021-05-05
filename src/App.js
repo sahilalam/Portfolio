@@ -52,14 +52,16 @@ export default function App() {
             <Nav>
               <button
                 className="navbar-brand navlink buton"
-                onClick={toggletheme}
+                onClick={() => {
+                  toggletheme();
+                }}
               >
-                {theme === "dark" ? "💡 lightTheme" : "🌙 darkTheme"}
+                {theme === "dark" ? "💡 light" : "🌙 dark"}
               </button>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Context.Provider value={theme}>
+        <Context.Provider value={{ theme, toggletheme }}>
           <Route exact path="/" component={Home} />
         </Context.Provider>
         <Route exact path="/skills" component={Skills} />

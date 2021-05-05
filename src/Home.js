@@ -12,7 +12,7 @@ import {
 import { Context } from "./App.js";
 export default function Home() {
   const context = React.useContext(Context);
-  let theme = "header" + context;
+  let theme = "header" + context.theme;
 
   return (
     <div className="container-fluid" id="home">
@@ -23,6 +23,9 @@ export default function Home() {
               xs="12"
               md="6"
               className="text-center logo-container pb-0 mb-0 "
+              onClick={() => {
+                context.toggletheme();
+              }}
             >
               <ScrollAnimation
                 animateIn="zoomInRight"
