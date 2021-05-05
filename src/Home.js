@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className="container-fluid" id="home">
-      <ScrollAnimation animateIn="fadeInLeft" duration={1}>
+      <ScrollAnimation animateIn="fadeIn" duration={2}>
         <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
           <Row className={"align-items-center p-1 pt-5 header " + theme}>
             <Col
@@ -27,7 +27,7 @@ export default function Home() {
               <ScrollAnimation
                 animateIn="zoomInRight"
                 duration={2}
-                delay={4000}
+                delay={2000}
               >
                 <Col xs="12" className="p-0 m-0">
                   <img
