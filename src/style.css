@@ -119,21 +119,41 @@ body {
     width: 0%;
     content: "MERN_Stack_Developer";
   }
-  40% {
+  20% {
     width: 100%;
   }
-  49% {
+  24% {
     content: "MERN_Stack_Developer";
   }
-  50% {
+  25% {
     width: 0%;
     content: "Codechef_3⭐_Coder";
   }
-  90% {
+  45% {
+    width: 100%;
+  }
+  49% {
+    content: "Codechef_3⭐_Coder";
+  }
+  50% {
+    width: 0%;
+    content: "LeetCode_3⭐_Coder";
+  }
+  70% {
+    width: 100%;
+  }
+  74% {
+    content: "LeetCode_3⭐_Coder";
+  }
+  75% {
+    width: 0%;
+    content: "E.D.M_Producer";
+  }
+  95% {
     width: 100%;
   }
   99% {
-    content: "Codechef_3⭐_Coder";
+    content: "E.D.M_Producer";
   }
   100% {
     width: 0%;
