@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Row, Col } from "react-bootstrap";
+import { Navbar, Nav, Row, Col, Toast } from "react-bootstrap";
 import { BrowserRouter, Route, NavLink, Redirect } from "react-router-dom";
 import All from "./All.js";
 import Frontend from "./Frontend.js";
@@ -40,6 +40,7 @@ export default function Projects() {
             </Navbar.Collapse>
           </Navbar>
         </Row>
+
         <Route exaxt path="/projects">
           <Redirect to="/projects/all" />
         </Route>

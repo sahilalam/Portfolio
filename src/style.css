@@ -17,6 +17,20 @@ body {
 .text-align-right {
   text-align: right;
 }
+.text-align-left {
+  text-align: left;
+}
+.text-small {
+  font-size: small;
+  font-family: "Courier New", Courier, monospace;
+}
+.details {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.151);
+  border-top: 2px solid blue;
+  box-shadow: 2px 2px 20px black;
+}
 .text-justify {
   text-align: justify;
 }
@@ -30,6 +44,9 @@ body {
   position: relative;
 
   animation: top 2s ease-in-out;
+}
+.b-b {
+  border-bottom: 2px solid blue;
 }
 .bottom-animation {
   position: relative;
@@ -244,22 +261,22 @@ body {
   height: fit-content;
 }
 .card {
-  background-color: rgba(110, 109, 109, 0.719);
+  background-color: rgba(111, 187, 250, 0.062);
 
-  box-shadow: 2px 2px 10px darkcyan;
+  box-shadow: 2px 2px 10px rgba(88, 88, 88, 0.432);
   transition: 0.5s ease-in-out;
   text-align: left;
-  border-radius: 0px;
+  border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.062);
   border-right: 10px solid rgb(1, 118, 172);
 }
 .card-right {
-  background-color: rgba(110, 109, 109, 0.719);
+  background-color: rgba(111, 187, 250, 0.062);
 
-  box-shadow: 2px 2px 10px darkcyan;
+  box-shadow: 2px 2px 10px rgba(88, 88, 88, 0.432);
   transition: 0.5s ease-in-out;
   text-align: left;
-  border-radius: 0px;
+  border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.062);
   border-left: 10px solid rgb(1, 118, 172);
 }
