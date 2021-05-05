@@ -399,7 +399,7 @@ body {
   border-right: 5px solid rgba(0, 238, 255, 0.24);
 }
 #skills {
-  height: 80vh;
+  height: 85vh;
 }
 .projects-nav {
   border-radius: 10px;
@@ -600,7 +600,7 @@ body {
   box-shadow: 0px 0px 5px rgb(29, 29, 29);
 }
 .project-con {
-  height: 70vh;
+  height: 75vh;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.082);
   box-shadow: 0px 0px 30px rgb(0, 0, 0);
