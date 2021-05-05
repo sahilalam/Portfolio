@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 export default function Frontend() {
   return (
-    <Row className="justify-content-center p-1 pt-5">
+    <Row className="justify-content-center p-1 pt-2">
       <Col xs="12" md="6" className="p-5 m-0 scroll project-con">
         <Row className="justify-content-center p-1 pt-5 pb-5">
           <Col xs="10" className="p-0 m-1 ">

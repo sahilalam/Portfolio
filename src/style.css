@@ -582,6 +582,7 @@ body {
   background-position: center;
 }
 #root {
+  overflow: hidden;
 }
 #main-nav {
   background-color: darkslategrey;

@@ -11,18 +11,7 @@ export default function Projects() {
   return (
     <BrowserRouter>
       <div className="container-fluid text-center " id="projects">
-        <Toast
-          show={show}
-          className="fade-in  toast "
-          onClose={() => {
-            useShow(false);
-          }}
-        >
-          <Toast.Header className="bg-transparent text-light text-small">
-            Scroll down over images to see more.
-          </Toast.Header>
-        </Toast>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center m-0">
           <Navbar
             collapseOnSelect
             expand="lg"
@@ -48,6 +37,21 @@ export default function Projects() {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+          <Col xs="12" className="p-0 m-0">
+            <Row className="justify-content-center p-0 m-0">
+              <Toast
+                show={show}
+                className="align-self-center fade-in  toast p-0 m-0 mt-1"
+                onClose={() => {
+                  useShow(false);
+                }}
+              >
+                <Toast.Header className="bg-transparent text-light text-small">
+                  Scroll down over images to see more.
+                </Toast.Header>
+              </Toast>
+            </Row>
+          </Col>
         </Row>
         <Route exaxt path="/projects">
           <Redirect to="/projects/all" />
