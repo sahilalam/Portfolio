@@ -10,6 +10,7 @@ import {
 } from "react-bootstrap";
 
 function Skills() {
+  let [show, useShow] = React.useState(true);
   return (
     <div className="container-fluid bg-trnsparent scroll" id="skills">
       <Row className="justify-content-center p-1">
@@ -19,6 +20,17 @@ function Skills() {
         >
           SKILLS
         </Col>
+        <Toast
+          show={show}
+          className="bg-light"
+          onClose={() => {
+            useShow(false);
+          }}
+        >
+          <Toast.Header className="bg-transparent text-dark text-small">
+            Hover over any skill to see more.
+          </Toast.Header>
+        </Toast>
         <Col xs="10" className="p-0 m-0 pb-5  mb-5">
           <Row className="justify-content-start m-3 p-0 mb-0">
             <Col xs="12" className="m-0 p-0">

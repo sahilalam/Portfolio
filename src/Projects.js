@@ -7,9 +7,21 @@ import Reactprojects from "./React.js";
 import Fullstack from "./Fullstack.js";
 
 export default function Projects() {
+  let [show, useShow] = React.useState(true);
   return (
     <BrowserRouter>
       <div className="container-fluid text-center " id="projects">
+        <Toast
+          show={show}
+          className="bg-light"
+          onClose={() => {
+            useShow(false);
+          }}
+        >
+          <Toast.Header className="bg-transparent text-dark text-small">
+            Scroll down over images to see more.
+          </Toast.Header>
+        </Toast>
         <Row className="justify-content-center">
           <Navbar
             collapseOnSelect
@@ -40,7 +52,6 @@ export default function Projects() {
             </Navbar.Collapse>
           </Navbar>
         </Row>
-
         <Route exaxt path="/projects">
           <Redirect to="/projects/all" />
         </Route>
