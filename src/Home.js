@@ -9,13 +9,16 @@ import {
   OverlayTrigger,
   Tooltip
 } from "react-bootstrap";
-
+import { Context } from "./App.js";
 export default function Home() {
+  const context = React.useContext(Context);
+  let theme = "header" + context;
+
   return (
     <div className="container-fluid" id="home">
       <ScrollAnimation animateIn="fadeInLeft" duration={1}>
         <Jumbotron className="m-0 p-4 jumbotron bg-transparent">
-          <Row className="align-items-center p-1 pt-5 header">
+          <Row className={"align-items-center p-1 pt-5 header " + theme}>
             <Col
               xs="12"
               md="6"

@@ -13,12 +13,12 @@ export default function Projects() {
       <div className="container-fluid text-center " id="projects">
         <Toast
           show={show}
-          className="bg-light"
+          className="fade-in  toast "
           onClose={() => {
             useShow(false);
           }}
         >
-          <Toast.Header className="bg-transparent text-dark text-small">
+          <Toast.Header className="bg-transparent text-light text-small">
             Scroll down over images to see more.
           </Toast.Header>
         </Toast>

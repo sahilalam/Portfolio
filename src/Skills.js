@@ -22,12 +22,12 @@ function Skills() {
         </Col>
         <Toast
           show={show}
-          className="bg-light"
+          className="toast fade-in"
           onClose={() => {
             useShow(false);
           }}
         >
-          <Toast.Header className="bg-transparent text-dark text-small">
+          <Toast.Header className=" bg-transparent text-light text-small">
             Hover over any skill to see more.
           </Toast.Header>
         </Toast>

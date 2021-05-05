@@ -8,6 +8,46 @@ body {
   color: white;
   text-shadow: 2px 2px 10px rgb(0, 212, 212);
 }
+.toast {
+  box-shadow: 0px 0px 20px black;
+  background-color: rgba(255, 255, 255, 0.137);
+  backdrop-filter: blur(10px);
+}
+.fade-in {
+  position: relative;
+  left: 0vw;
+  opacity: 1;
+  transition: 0.5s;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    left: 100vw;
+  }
+  50% {
+    opacity: 0;
+    left: 100vw;
+  }
+  75% {
+    opacity: 1;
+    left: 0vw;
+  }
+  85% {
+    left: 10vw;
+  }
+  90% {
+    left: 0vw;
+  }
+  95% {
+    left: 1vw;
+  }
+  100% {
+    left: 0vw;
+  }
+}
+.backdrop-filter {
+}
 .width-100 {
   width: 100%;
 }
@@ -43,14 +83,14 @@ body {
 .top-animation {
   position: relative;
 
-  animation: top 2s ease-in-out;
+  animation: top 1s ease-in-out;
 }
 .b-b {
   border-bottom: 2px solid blue;
 }
 .bottom-animation {
   position: relative;
-  animation: bottom 2s ease-in-out;
+  animation: bottom 1s ease-in-out;
   opacity: 1;
 }
 @keyframes bottom {
@@ -189,10 +229,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 0px 20px black;
   height: max-content;
-  background: radial-gradient(rgba(0, 0, 0, 0.548), rgba(129, 129, 129, 0.171)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
-  background-size: cover;
-  background-position: center;
+
   border-right: 10px solid rgb(1, 118, 172);
   border-left: 10px solid rgb(1, 118, 172);
 }
@@ -311,14 +348,13 @@ body {
 .bar {
   margin-bottom: 5px;
   width: 100%;
+  height: 10px;
   transition: 1s;
   border-radius: 20px;
-  background-color: black;
+  background-color: transparent;
   border: 0px solid rgb(0, 206, 209);
   animation: bar 1s ease-in-out;
   box-shadow: 0px 0px 10px cyan;
-  border-left: 5px solid rgb(0, 98, 209);
-  border-right: 5px solid rgb(0, 98, 209);
 }
 @keyframes bar {
   0% {
@@ -372,7 +408,13 @@ body {
 .project {
 }
 .project-head {
-  background-color: rgba(47, 79, 79, 0.966);
+  color: white;
+  text-shadow: 0px 0px 10px cyan;
+  font-weight: bolder;
+  font-size: small;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(255, 255, 255, 0);
+
   border-radius: 5px;
   box-shadow: 2px 2px 20px rgb(37, 37, 37);
   z-index: 0;
@@ -510,11 +552,36 @@ body {
 .contact {
   box-shadow: 0px 0px 10px darkslategray;
 }
-#root {
+.buton {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 0px;
+}
+.bglight {
+  min-height: 100vh;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.384)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
+  background-size: cover;
+}
+.bgdark {
+  min-height: 100vh;
   background: radial-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.637)),
     url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
   background-size: cover;
-  min-height: 100vh;
+}
+.headerlight {
+  background: radial-gradient(rgba(0, 0, 0, 0.548), rgba(129, 129, 129, 0.171)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
+  background-size: cover;
+  background-position: center;
+}
+.headerdark {
+  background: radial-gradient(rgba(0, 9, 32, 0.438), rgb(0, 2, 15)),
+    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
+  background-size: cover;
+  background-position: center;
+}
+#root {
 }
 #main-nav {
   background-color: darkslategrey;

@@ -7,9 +7,15 @@ import Projects from "./Projects.js";
 import Contact from "./Contact.js";
 import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
+export const Context = React.createContext();
+
 export default function App() {
+  let [theme, changeTheme] = React.useState("dark");
+  let toggletheme = () => {
+    changeTheme(theme === "dark" ? "light" : "dark");
+  };
   return (
-    <div className="">
+    <div className={"bg" + theme}>
       <BrowserRouter>
         <Navbar
           collapseOnSelect
@@ -34,8 +40,6 @@ export default function App() {
               <NavLink className="nav-link navlink" to="/projects">
                 Projects
               </NavLink>
-            </Nav>
-            <Nav>
               <a
                 className="nav-link navlink"
                 href="https://drive.google.com/file/d/1W2DuL7rzLjXi1-lWKiHpUDHw6He432rq/view?usp=sharing"
@@ -44,9 +48,20 @@ export default function App() {
                 RESUME
               </a>
             </Nav>
+
+            <Nav>
+              <button
+                className="navbar-brand navlink buton"
+                onClick={toggletheme}
+              >
+                {theme === "dark" ? "💡 lightTheme" : "🌙 darkTheme"}
+              </button>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Route exact path="/" component={Home} />
+        <Context.Provider value={theme}>
+          <Route exact path="/" component={Home} />
+        </Context.Provider>
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
