@@ -514,7 +514,7 @@ body {
 .project-con {
   height: 70vh;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.082);
+  background-color: rgba(0, 0, 0, 0.082);
   box-shadow: 0px 0px 30px rgb(0, 0, 0);
   border-left: 5px solid rgb(0, 98, 209);
   border-right: 5px solid rgb(0, 98, 209);
