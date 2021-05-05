@@ -6,7 +6,7 @@ export default function Reactprojects() {
     <Row className="justify-content-center p-1 pt-5">
       <Col xs="12" md="6" className="p-5 m-0 project-con scroll">
         <Row className="justify-content-center p-1 pt-5 pb-5">
-          <Col xs="12" className="p-0 m-1">
+          <Col xs="10" className="p-0 m-1">
             <ScrollAnimation
               animateIn="zoom-in"
               animateOut="zoom-out"
@@ -34,7 +34,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-          <Col xs="12" className="p-0 m-1 ">
+          <Col xs="10" className="p-0 m-1 ">
             <ScrollAnimation
               animateIn="zoom-in"
               animateOut="zoom-out"
@@ -64,7 +64,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-          <Col xs="12" className="p-0 m-1">
+          <Col xs="10" className="p-0 m-1">
             <ScrollAnimation
               animateIn="zoom-in"
               animateOut="zoom-out"
@@ -94,7 +94,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
-          <Col xs="12" className="p-0 m-1 ">
+          <Col xs="10" className="p-0 m-1 ">
             <ScrollAnimation
               animateIn="zoom-in"
               animateOut="zoom-out"

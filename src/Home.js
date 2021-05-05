@@ -60,14 +60,14 @@ export default function Home() {
               </Col>
             </Col>
 
-            <Col className="m-0 mt-3 mb-3 p-3 ">
+            <Col xs="12" className="m-0 mt-3 mb-3 p-0 box-body">
               <ScrollAnimation
                 animateIn="bounceInRight"
                 duration={2}
                 delay={3000}
               >
-                <Row>
-                  <Col className="text-center box-body">
+                <Row className="justify-content-center">
+                  <Col className="text-center ">
                     <ScrollAnimation
                       animateIn="bounceInLeft"
                       duration={2}
@@ -133,97 +133,109 @@ export default function Home() {
                 </Row>
               </ScrollAnimation>
             </Col>
+            <Col xs="12" className=" ">
+              <Navbar
+                collapseOnSelect
+                expand="lg"
+                bg="transparent"
+                variant="dark"
+              >
+                <Navbar.Brand href="#home">Profiles</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="mr-auto">
+                    <Nav.Link
+                      href="https://www.codechef.com/users/sahilalam"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>CodeChef</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/codechef.jpg"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                    <Nav.Link
+                      href="https://leetcode.com/alamsahil939/"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>LeetCode</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/leetcode.png"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                    <Nav.Link
+                      href="https://github.com/sahilalam"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>github</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/github.png"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                  </Nav>
+                  <Navbar.Brand href="#home">Contact Me</Navbar.Brand>
+                  <Nav>
+                    <Nav.Link
+                      href="https://www.linkedin.com/in/sahil-alam-1b3024179/"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>LinkedIn</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                    <Nav.Link
+                      href="mailto:alamsahil939@gmail.com"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>alamsahil939@gmail.com</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/gmail.png"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                    <Nav.Link
+                      href="https://api.whatsapp.com/send?phone=+917011498951"
+                      target="_blank"
+                    >
+                      <OverlayTrigger
+                        placement="top"
+                        overlay={<Tooltip>+91 7011498951</Tooltip>}
+                      >
+                        <img
+                          className="logo-md p-2 box-shadow-dark"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/whatsapp.png"
+                        />
+                      </OverlayTrigger>
+                    </Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Navbar>
+            </Col>
           </Row>
-
-          <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
-            <Navbar.Brand href="#home">Profiles</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link
-                  href="https://www.codechef.com/users/sahilalam"
-                  target="_blank"
-                >
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>CodeChef</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/codechef.jpg"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-                <Nav.Link
-                  href="https://leetcode.com/alamsahil939/"
-                  target="_blank"
-                >
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>LeetCode</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/leetcode.png"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-                <Nav.Link href="https://github.com/sahilalam" target="_blank">
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>github</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/github.png"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-              </Nav>
-              <Navbar.Brand href="#home">Contact Me</Navbar.Brand>
-              <Nav>
-                <Nav.Link
-                  href="https://www.linkedin.com/in/sahil-alam-1b3024179/"
-                  target="_blank"
-                >
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>LinkedIn</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-                <Nav.Link href="mailto:alamsahil939@gmail.com" target="_blank">
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>alamsahil939@gmail.com</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/gmail.png"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-                <Nav.Link
-                  href="https://api.whatsapp.com/send?phone=+917011498951"
-                  target="_blank"
-                >
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={<Tooltip>+91 7011498951</Tooltip>}
-                  >
-                    <img
-                      className="logo-md p-2 box-shadow-dark"
-                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/whatsapp.png"
-                    />
-                  </OverlayTrigger>
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
         </Jumbotron>
       </ScrollAnimation>
     </div>
