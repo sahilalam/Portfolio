@@ -22,23 +22,26 @@ export default function Home() {
             <Col
               xs="12"
               md="6"
-              className="text-center logo-container pb-0 mb-0 "
+              className="text-center pb-0 mb-0 "
               onClick={() => {
                 context.toggletheme();
               }}
             >
-              <ScrollAnimation
-                animateIn="zoomInRight"
-                duration={2}
-                delay={2000}
-              >
-                <Col xs="12" className="p-0 m-0">
-                  <img
-                    className="logo  p-2"
-                    src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
-                  />
-                </Col>
-              </ScrollAnimation>
+              <Row className="justify-content-center">
+                <ScrollAnimation
+                  className="width-50 border-50"
+                  animateIn="zoomInRight"
+                  duration={2}
+                  delay={2000}
+                >
+                  <Col className="p-0 m-0 logo-container">
+                    <img
+                      className="logo  p-2"
+                      src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
+                    />
+                  </Col>
+                </ScrollAnimation>
+              </Row>
             </Col>
 
             <Col xs="12" md="6" className="box-body">
@@ -140,7 +143,7 @@ export default function Home() {
                 bg="transparent"
                 variant="dark"
               >
-                <Navbar.Brand href="#home">Profiles</Navbar.Brand>
+                <Navbar.Brand href="#home" />
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
@@ -153,8 +156,8 @@ export default function Home() {
                         overlay={<Tooltip>CodeChef</Tooltip>}
                       >
                         <img
-                          className="logo-md p-2 box-shadow-dark"
-                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/codechef.jpg"
+                          className="logo-md p-2 box-shadow-dark bg-light"
+                          src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/c.png"
                         />
                       </OverlayTrigger>
                     </Nav.Link>
@@ -167,7 +170,7 @@ export default function Home() {
                         overlay={<Tooltip>LeetCode</Tooltip>}
                       >
                         <img
-                          className="logo-md p-2 box-shadow-dark"
+                          className="logo-md p-2 box-shadow-dark bg-light"
                           src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/leetcode.png"
                         />
                       </OverlayTrigger>
@@ -181,13 +184,13 @@ export default function Home() {
                         overlay={<Tooltip>github</Tooltip>}
                       >
                         <img
-                          className="logo-md p-2 box-shadow-dark"
+                          className="logo-md p-2 box-shadow-dark bg-light"
                           src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/github.png"
                         />
                       </OverlayTrigger>
                     </Nav.Link>
                   </Nav>
-                  <Navbar.Brand href="#home">Contact Me</Navbar.Brand>
+                  <Navbar.Brand href="#home" />
                   <Nav>
                     <Nav.Link
                       href="https://www.linkedin.com/in/sahil-alam-1b3024179/"

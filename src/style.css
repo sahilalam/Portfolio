@@ -13,6 +13,12 @@ body {
   background-color: rgba(255, 255, 255, 0.137);
   backdrop-filter: blur(10px);
 }
+.width-50 {
+  width: 50%;
+}
+.border-50 {
+  border-radius: 50%;
+}
 .fade-in {
   position: relative;
   left: 0vw;
@@ -291,18 +297,18 @@ body {
   z-index: 1;
 }
 .logo {
-  width: 50%;
+  width: 100%;
   border-radius: 50%;
 
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.774);
   animation: rotate 6s infinite;
-  overflow: visible;
+  overflow: hidden;
+  transition: 0.5s;
 }
 .logo-container {
-  transition: 0.5s;
-  width: fit-content;
-  height: fit-content;
   border-radius: 50%;
+
+  transition: 0.5s;
 }
 .logo-container:hover {
   transform: rotate(360deg);
