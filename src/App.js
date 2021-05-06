@@ -1,21 +1,21 @@
-import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import "./style.css";
-import Skills from "./Skills.js";
-import Home from "./Home.js";
-import Projects from "./Projects.js";
-import Contact from "./Contact.js";
-import { BrowserRouter, Route, NavLink } from "react-router-dom";
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import './style.css';
+import Skills from './Skills.js';
+import Home from './Home.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 
 export const Context = React.createContext();
 
 export default function App() {
-  let [theme, changeTheme] = React.useState("dark");
+  let [theme, changeTheme] = React.useState('dark');
   let toggletheme = () => {
-    changeTheme(theme === "dark" ? "light" : "dark");
+    changeTheme(theme === 'dark' ? 'light' : 'dark');
   };
   return (
-    <div className={"bg" + theme}>
+    <div className={'bg' + theme}>
       <BrowserRouter>
         <Navbar
           collapseOnSelect
@@ -56,7 +56,7 @@ export default function App() {
                   toggletheme();
                 }}
               >
-                {theme === "dark" ? "💡 light" : "🌙 dark"}
+                {theme === 'dark' ? '💡 light' : '🌙 dark'}
               </button>
             </Nav>
           </Navbar.Collapse>
