@@ -67,7 +67,7 @@ body {
 .details {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.151);
+  background-color: rgba(0, 0, 0, 0.5);
   border-top: 2px solid blue;
   box-shadow: 2px 2px 20px black;
 }
