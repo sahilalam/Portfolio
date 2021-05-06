@@ -320,7 +320,7 @@ body {
   height: fit-content;
 }
 .card {
-  background-color: rgba(0, 0, 0, 0.062);
+  background-color: rgba(0, 0, 0, 0.568);
   box-shadow: 2px 2px 10px rgba(4, 255, 222, 0.432);
   transition: 0.5s ease-in-out;
   text-align: left;
@@ -329,7 +329,7 @@ body {
   border-right: 10px solid rgb(1, 118, 172);
 }
 .card-right {
-  background-color: rgba(0, 0, 0, 0.062);
+  background-color: rgba(0, 0, 0, 0.568);
 
   box-shadow: 2px 2px 10px rgba(4, 255, 222, 0.432);
   transition: 0.5s ease-in-out;
