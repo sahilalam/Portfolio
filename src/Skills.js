@@ -1,5 +1,5 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import {
   Row,
   Col,
@@ -7,7 +7,7 @@ import {
   OverlayTrigger,
   Tooltip,
   Toast
-} from "react-bootstrap";
+} from 'react-bootstrap';
 
 function Skills() {
   let [show, useShow] = React.useState(true);
@@ -48,7 +48,7 @@ function Skills() {
                       xs="12"
                       className="bg-transparent mb-4 p-2 text-align-right b-b"
                     >
-                      <h3>Front-End</h3>
+                      <h3 className="bold">Front-End</h3>
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation
@@ -318,7 +318,7 @@ function Skills() {
                     scrollableParentSelector=".scroll"
                   >
                     <Col xs="12" className="bg-transparent mb-4 p-2 b-b ">
-                      <h3>Back-End</h3>
+                      <h3 className="bold">Back-End</h3>
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation
@@ -456,7 +456,7 @@ function Skills() {
                       xs="12"
                       className="bg-transparent b-b mb-4 p-2 text-align-right "
                     >
-                      <h3>Programming</h3>
+                      <h3 className="bold">Programming</h3>
                     </Col>
                   </ScrollAnimation>
                   <ScrollAnimation

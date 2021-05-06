@@ -1,10 +1,10 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 .text {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   color: white;
   text-shadow: 2px 2px 10px rgb(0, 212, 212);
 }
@@ -62,7 +62,7 @@ body {
 }
 .text-small {
   font-size: small;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 .details {
   border-bottom-left-radius: 10px;
@@ -86,7 +86,10 @@ body {
   animation: top 1s ease-in-out;
 }
 .b-b {
-  border-bottom: 2px solid blue;
+  border-bottom: 5px double rgba(0, 110, 255, 0.562);
+}
+.bold {
+  font-weight: bolder;
 }
 .bottom-animation {
   position: relative;
@@ -146,7 +149,7 @@ body {
   color: darkturquoise;
   font-weight: 800;
 
-  content: "Codechef_3_Star_Coder";
+  content: 'Codechef_3_Star_Coder';
   position: absolute;
   border-right: 5px solid darkturquoise;
   animation: text 18s infinite;
@@ -156,47 +159,91 @@ body {
 @keyframes text {
   0% {
     width: 0%;
-    content: "MERN_Stack_Developer";
+    content: 'MERN_Stack_Developer';
   }
   20% {
     width: 100%;
+    border-right: 5px solid darkturquoise;
   }
+  21% {
+    width: 100%;
+    border-right: 5px solid rgba(0, 206, 209, 0);
+  }
+  22% {
+    width: 100%;
+    border-right: 5px solid darkturquoise;
+  }
+
   24% {
-    content: "MERN_Stack_Developer";
+    content: 'MERN_Stack_Developer';
+    border-right: 5px solid rgb(0, 206, 209);
   }
   25% {
     width: 0%;
-    content: "Codechef_3⭐_Coder";
+    content: 'Codechef_3⭐_Coder';
   }
   45% {
     width: 100%;
+    border-right: 5px solid darkturquoise;
   }
+  46% {
+    width: 100%;
+    border-right: 5px solid rgba(0, 206, 209, 0);
+  }
+  47% {
+    width: 100%;
+    border-right: 5px solid darkturquoise;
+  }
+
   49% {
-    content: "Codechef_3⭐_Coder";
+    content: 'Codechef_3⭐_Coder';
+    border-right: 5px solid darkturquoise;
   }
   50% {
     width: 0%;
-    content: "LeetCode_3⭐_Coder";
+    content: 'LeetCode_3⭐_Coder';
   }
   70% {
     width: 100%;
+    border-right: 5px solid darkturquoise;
   }
+  71% {
+    width: 100%;
+    border-right: 5px solid rgba(0, 206, 209, 0);
+  }
+  72% {
+    width: 100%;
+    border-right: 5px solid rgb(0, 206, 209);
+  }
+
   74% {
-    content: "LeetCode_3⭐_Coder";
+    content: 'LeetCode_3⭐_Coder';
+    border-right: 5px solid rgb(0, 206, 209);
   }
   75% {
     width: 0%;
-    content: "E.D.M_Producer";
+    content: 'E.D.M_Producer';
   }
   95% {
     width: 100%;
+    border-right: 5px solid darkturquoise;
   }
+  96% {
+    width: 100%;
+    border-right: 5px solid rgba(0, 206, 209, 0);
+  }
+  97% {
+    width: 100%;
+    border-right: 5px solid darkturquoise;
+  }
+
   99% {
-    content: "E.D.M_Producer";
+    content: 'E.D.M_Producer';
+    border-right: 5px solid darkturquoise;
   }
   100% {
     width: 0%;
-    content: "MERN_Stack_Developer";
+    content: 'MERN_Stack_Developer';
   }
 }
 @keyframes text-before {
@@ -218,11 +265,11 @@ body {
   font-weight: 900;
   font-size: 3rem;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 .bg {
-  background-image: url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/13.gif");
+  background-image: url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/13.gif');
 }
 .header {
   border-radius: 10px;
@@ -320,6 +367,7 @@ body {
   height: fit-content;
 }
 .card {
+  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.568);
   box-shadow: 2px 2px 10px rgba(4, 255, 222, 0.432);
   transition: 0.5s ease-in-out;
@@ -329,6 +377,7 @@ body {
   border-right: 10px solid rgb(1, 118, 172);
 }
 .card-right {
+  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.568);
 
   box-shadow: 2px 2px 10px rgba(4, 255, 222, 0.432);
@@ -372,6 +421,7 @@ body {
   }
 }
 .card-right:hover {
+  color: black;
   background-color: rgba(218, 218, 218, 0.568);
 
   transform: translate(-10px, -10px);
@@ -383,6 +433,7 @@ body {
   border-left: 10px solid rgb(1, 118, 172);
 }
 .card:hover {
+  color: black;
   background-color: rgba(218, 218, 218, 0.568);
 
   transform: translate(10px, -10px);
@@ -414,7 +465,7 @@ body {
   text-shadow: 0px 0px 10px cyan;
   font-weight: bolder;
   font-size: small;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgba(255, 255, 255, 0);
 
   border-radius: 5px;
@@ -464,7 +515,7 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 0%;
-  content: "";
+  content: '';
   width: 100%;
   z-index: 0;
   transition: 0.5s;
@@ -497,7 +548,7 @@ body {
   height: 80%;
   content: attr(alt);
   border-bottom: 5px solid rgb(0, 98, 209);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 
   color: white;
   font-size: small;
@@ -509,7 +560,7 @@ body {
 @keyframes hov-top {
   0% {
     height: 0%;
-    content: "";
+    content: '';
   }
   50% {
     height: 20%;
@@ -521,7 +572,7 @@ body {
 @keyframes hov-bottom {
   0% {
     height: 0%;
-    content: "";
+    content: '';
   }
   50% {
     height: 80%;
@@ -562,24 +613,24 @@ body {
 .bglight {
   min-height: 100vh;
   background: radial-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.384)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
+    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif');
   background-size: cover;
 }
 .bgdark {
   min-height: 100vh;
   background: radial-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.637)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif");
+    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source1.gif');
   background-size: cover;
 }
 .headerlight {
   background: radial-gradient(rgba(0, 0, 0, 0.548), rgba(129, 129, 129, 0.171)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
+    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif');
   background-size: cover;
   background-position: center;
 }
 .headerdark {
   background: radial-gradient(rgba(0, 9, 32, 0.438), rgb(0, 2, 15)),
-    url("https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif");
+    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif');
   background-size: cover;
   background-position: center;
 }
