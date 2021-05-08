@@ -1,5 +1,6 @@
 # My Portfolio
-## *Technologies Used: React, Javascript, HTML, CSS*
+### *Technologies Used: React, Javascript, HTML, CSS*
+[Portfolio Link](https://portfolio-sahilalam.vercel.app/)
 
 ### Homepage ( *light* )
 ![p1](https://user-images.githubusercontent.com/37076663/117533239-57d98700-b009-11eb-923d-65846b272b43.PNG)
