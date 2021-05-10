@@ -1,6 +1,6 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
 export default function Fullstack() {
   return (
     <Row className="justify-content-center p-1 pt-2">
