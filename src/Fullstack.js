@@ -6,6 +6,32 @@ export default function Fullstack() {
     <Row className="justify-content-center p-1 pt-2">
       <Col xs="12" md="6" className="p-5 m-0 project-con scroll">
         <Row className="justify-content-center p-1 pt-5 pb-5">
+        <Col xs="10" className="p-0 m-1">
+            <ScrollAnimation
+              animateIn="zoom-in"
+              animateOut="zoom-out"
+              scrollableParentSelector=".scroll"
+              offset={400}
+            >
+              <Row className="justify-content-center">
+                <Col xs="11" className=" p-0">
+                  <a href="https://blogger-app.vercel.app/" target="_blank">
+                    <Col
+                      xs="12"
+                      className="pi p-0 m-0"
+                      id="V-Tube"
+                      alt="A site where you can share short videos to get views ,likes and comments."
+                    >
+                      <img
+                        className="project-image p-0 m-0 "
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/v.PNG"
+                      />
+                    </Col>
+                  </a>
+                </Col>
+              </Row>
+            </ScrollAnimation>
+          </Col>
           <Col xs="10" className="p-0 m-1 ">
             <ScrollAnimation
               animateIn="zoom-in"

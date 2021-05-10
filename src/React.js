@@ -1,6 +1,6 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
 export default function Reactprojects() {
   return (
     <Row className="justify-content-center p-1 pt-2">
@@ -19,14 +19,12 @@ export default function Reactprojects() {
                     <Col
                       xs="12"
                       className="pi p-0 m-0"
-                      id="Blogger"
-                      alt="A site where you can share your thoughts by posting
-                        blogs and people can like and comment on your post to
-                        make it trending ."
+                      id="V-Tube"
+                      alt="A site where you can share short videos to get views ,likes and comments."
                     >
                       <img
                         className="project-image p-0 m-0 "
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/v.PNG"
                       />
                     </Col>
                   </a>
@@ -34,6 +32,7 @@ export default function Reactprojects() {
               </Row>
             </ScrollAnimation>
           </Col>
+
           <Col xs="10" className="p-0 m-1 ">
             <ScrollAnimation
               animateIn="zoom-in"
@@ -87,6 +86,34 @@ export default function Reactprojects() {
                       <img
                         className="project-image m-0 p-0"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Dashboard.PNG"
+                      />
+                    </Col>
+                  </a>
+                </Col>
+              </Row>
+            </ScrollAnimation>
+          </Col>
+          <Col xs="10" className="p-0 m-1">
+            <ScrollAnimation
+              animateIn="zoom-in"
+              animateOut="zoom-out"
+              scrollableParentSelector=".scroll"
+              offset={400}
+            >
+              <Row className="justify-content-center">
+                <Col xs="11" className=" p-0">
+                  <a href="https://blogger-app.vercel.app/" target="_blank">
+                    <Col
+                      xs="12"
+                      className="pi p-0 m-0"
+                      id="Blogger"
+                      alt="A site where you can share your thoughts by posting
+                        blogs and people can like and comment on your post to
+                        make it trending ."
+                    >
+                      <img
+                        className="project-image p-0 m-0 "
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
                       />
                     </Col>
                   </a>

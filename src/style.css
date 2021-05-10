@@ -689,7 +689,7 @@ body {
   overflow: hidden;
 }
 .zoom-in {
-  transition: 0.5s;
+  transition: 1s;
   animation: zoomin 3s ease-in;
 }
 @keyframes zoomin {
@@ -703,7 +703,7 @@ body {
   }
 }
 .zoom-out {
-  transition: 0.5s;
+  transition: 1s;
   animation: zoomout 3s ease-out;
 }
 @keyframes zoomout {
