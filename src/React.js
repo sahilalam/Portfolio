@@ -15,7 +15,7 @@ export default function Reactprojects() {
             >
               <Row className="justify-content-center">
                 <Col xs="11" className=" p-0">
-                  <a href="https://blogger-app.vercel.app/" target="_blank">
+                  <a href="https://v-tube.vercel.app/" target="_blank">
                     <Col
                       xs="12"
                       className="pi p-0 m-0"
