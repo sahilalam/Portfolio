@@ -1,20 +1,4 @@
 import React from 'react';
-import b from "./ICONS/b.png";
-import h from "./ICONS/html1.png";
-import c from "./ICONS/css.png";
-import r from "./ICONS/react.png";
-import n from "./ICONS/Node.png";
-import m from "./ICONS/mongodb.png";
-import cc from "./ICONS/c.png";
-import l from "./ICONS/leetcode.png";
-import g from "./ICONS/github.png";
-import li from "./ICONS/LI.png";
-import gm from "./ICONS/gmail.png";
-import w from "./ICONS/whatsapp.png";
-import j from "./ICONS/js.png";
-import e from "./ICONS/express.png";
-import ds from "./ICONS/ds.png";
-import cp from "./ICONS/c++.png";
 import ScrollAnimation from 'react-animate-on-scroll';
 import {
   Row,
@@ -95,7 +79,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-0"
-                              src={h}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -133,7 +117,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={c}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -171,7 +155,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={j}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/js.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -209,7 +193,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={b}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -247,7 +231,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={r}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -365,7 +349,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={n}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -403,7 +387,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={e}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/express.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -441,7 +425,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={m}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -503,7 +487,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={ds}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/ds.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
@@ -541,7 +525,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
-                              src={cp}
+                              src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/c++.png"
                             />
                           </Col>
                           <Col xs="6" className="p-2">
