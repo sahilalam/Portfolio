@@ -1,4 +1,11 @@
 import React from 'react';
+import v from "./ICONS/v.PNG";
+import u from "./ICONS/url.PNG";
+import d from "./ICONS/Dashboard.PNG";
+import b from "./ICONS/Blogger.PNG";
+import s from "./ICONS/spotify.PNG";
+import t from "./ICONS/tv.PNG";
+import to from "./ICONS/todo.PNG";
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Row, Col } from 'react-bootstrap';
 export default function All() {
@@ -24,7 +31,7 @@ export default function All() {
                     >
                       <img
                         className="project-image p-0 m-0 "
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/v.PNG"
+                        src={v}
                       />
                     </Col>
                   </a>
@@ -55,7 +62,7 @@ export default function All() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/url.PNG"
+                        src={u}
                       />
                     </Col>
                   </a>
@@ -85,7 +92,7 @@ export default function All() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Dashboard.PNG"
+                        src={d}
                       />
                     </Col>
                   </a>
@@ -113,7 +120,7 @@ export default function All() {
                     >
                       <img
                         className="project-image p-0 m-0 "
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
+                        src={b}
                       />
                     </Col>
                   </a>
@@ -142,7 +149,7 @@ export default function All() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/spotify.PNG"
+                        src={s}
                       />
                     </Col>
                   </a>
@@ -172,7 +179,7 @@ export default function All() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/tv.PNG"
+                        src={t}
                       />
                     </Col>
                   </a>
@@ -201,7 +208,7 @@ export default function All() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/todo.PNG"
+                        src={to}
                       />
                     </Col>
                   </a>

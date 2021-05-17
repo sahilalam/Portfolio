@@ -622,26 +622,26 @@ body {
       rgba(0, 255, 136, 0.411),
       rgba(255, 255, 255, 0.384)
     ),
-    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source8.gif');
+    url('./ICONS/Source8.gif');
   background-size: cover;
   background-position: center;
 }
 .bgdark {
   min-height: 100vh;
   background: radial-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.637)),
-    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source8.gif');
+    url('./ICONS/Source8.gif');
   background-size: cover;
   background-position: center;
 }
 .headerlight {
   background: radial-gradient(rgba(0, 0, 0, 0.548), rgba(129, 129, 129, 0.171)),
-    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif');
+    url('./ICONS/Source2.gif');
   background-size: cover;
   background-position: center;
 }
 .headerdark {
   background: radial-gradient(rgba(0, 9, 32, 0.438), rgb(0, 2, 15)),
-    url('https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Source2.gif');
+    url('./ICONS/Source2.gif');
   background-size: cover;
   background-position: center;
 }

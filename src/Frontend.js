@@ -1,4 +1,8 @@
 import React from "react";
+
+import s from "./ICONS/spotify.PNG";
+import t from "./ICONS/tv.PNG";
+import to from "./ICONS/todo.PNG";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 export default function Frontend() {
@@ -27,7 +31,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/spotify.PNG"
+                        src={s}
                       />
                     </Col>
                   </a>
@@ -57,7 +61,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/tv.PNG"
+                        src={t}
                       />
                     </Col>
                   </a>
@@ -86,7 +90,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/todo.PNG"
+                        src={to}
                       />
                     </Col>
                   </a>

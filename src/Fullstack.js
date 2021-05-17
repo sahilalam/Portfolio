@@ -1,4 +1,9 @@
 import React from 'react';
+import v from "./ICONS/v.PNG";
+import u from "./ICONS/url.PNG";
+import d from "./ICONS/Dashboard.PNG";
+import b from "./ICONS/Blogger.PNG";
+
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
 export default function Fullstack() {
@@ -24,7 +29,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image p-0 m-0 "
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/v.PNG"
+                        src={v}
                       />
                     </Col>
                   </a>
@@ -54,7 +59,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/url.PNG"
+                        src={u}
                       />
                     </Col>
                   </a>
@@ -84,7 +89,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image m-0 p-0"
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Dashboard.PNG"
+                        src={d}
                       />
                     </Col>
                   </a>
@@ -112,7 +117,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image p-0 m-0 "
-                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
+                        src={d}
                       />
                     </Col>
                   </a>
