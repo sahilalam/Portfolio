@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20210514T073000Z
+DTEND:20210514T083000Z
+DTSTAMP:20210512T150100Z
+ORGANIZER;CN=alice@guvi.in:mailto:alice@guvi.in
+UID:69gjgopg61i62b9n6sr32b9kc4q68bb168pjabb26gsjcc33cor3coj568@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=alamsahil939@gmail.com;X-NUM-GUESTS=0:mailto:alamsahil939@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=product@cogai.ai;X-NUM-GUESTS=0:mailto:product@cogai.ai
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=madan@cogai.ai;X-NUM-GUESTS=0:mailto:madan@cogai.ai
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=alice@guvi.in;X-NUM-GUESTS=0:mailto:alice@guvi.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Careers CogAi;X-NUM-GUESTS=0:mailto:careers@cogai.ai
+X-MICROSOFT-CDO-OWNERAPPTID:-1909368303
+CREATED:20210512T150056Z
+DESCRIPTION:Alam Sahil\nhttps://drive.google.com/file/d/1W2DuL7rzLjXi1-lWKi
+ HpUDHw6He432rq/view?usp=sharing\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this se
+ ction of the description.\n\nThis event has a video call.\nJoin: https://me
+ et.google.com/foe-tnia-cfz\n(US) +1 484-403-0649 PIN: 339001370#\nView more
+  phone numbers: https://tel.meet/foe-tnia-cfz?pin=1713280650464&hs=7\n\nVie
+ w your event at https://calendar.google.com/calendar/event?action=VIEW&eid=
+ NjlnamdvcGc2MWk2MmI5bjZzcjMyYjlrYzRxNjhiYjE2OHBqYWJiMjZnc2pjYzMzY29yM2NvajU
+ 2OCBhbGFtc2FoaWw5MzlAbQ&tok=MTMjYWxpY2VAZ3V2aS5pbjJjZWQyMTEwYmUxOTQxYWRmMzM
+ 2MGQ5NWRhMTM0YWZlYzFiMGY4NTk&ctz=Asia%2FKolkata&hl=en&es=1.\n-::~:~::~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20210512T150057Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sahil Alam- Frontend developer - Technical Interview- CogAi
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
