@@ -7,7 +7,7 @@ import {
   Row,
   Col,
   OverlayTrigger,
-  Tooltip
+  Tooltip,
 } from 'react-bootstrap';
 import { Context } from './App.js';
 export default function Home() {
@@ -37,6 +37,7 @@ export default function Home() {
                   <Col className="p-0 m-0 logo-container">
                     <img
                       className="logo  p-2"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
                     />
                   </Col>
@@ -84,9 +85,8 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
-                        src={
-                          'https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png'
-                        }
+                        loading="lazy"
+                        src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png"
                       />
                     </OverlayTrigger>
                     <OverlayTrigger
@@ -95,6 +95,7 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
                       />
                     </OverlayTrigger>
@@ -104,6 +105,7 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
                       />
                     </OverlayTrigger>
@@ -113,6 +115,7 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
                       />
                     </OverlayTrigger>
@@ -122,6 +125,7 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
                       />
                     </OverlayTrigger>
@@ -131,6 +135,7 @@ export default function Home() {
                     >
                       <img
                         className="logo-md p-2 m-1"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
                       />
                     </OverlayTrigger>
@@ -154,6 +159,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark bg-light"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/c.png"
                     />
                   </OverlayTrigger>
@@ -168,6 +174,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark bg-light"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/leetcode.png"
                     />
                   </OverlayTrigger>
@@ -179,6 +186,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark bg-light"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/github.png"
                     />
                   </OverlayTrigger>
@@ -196,6 +204,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/LI.png"
                     />
                   </OverlayTrigger>
@@ -207,6 +216,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/gmail.png"
                     />
                   </OverlayTrigger>
@@ -221,6 +231,7 @@ export default function Home() {
                   >
                     <img
                       className="logo-md p-2 box-shadow-dark"
+                      loading="lazy"
                       src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/whatsapp.png"
                     />
                   </OverlayTrigger>

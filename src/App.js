@@ -27,6 +27,7 @@ export default function App() {
           <NavLink to="/" className="navbar-brand navlink p-2">
             <img
               className="logo-sm"
+              loading="lazy"
               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
             />
             _Sahil Alam

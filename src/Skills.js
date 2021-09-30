@@ -6,7 +6,7 @@ import {
   ProgressBar,
   OverlayTrigger,
   Tooltip,
-  Toast
+  Toast,
 } from 'react-bootstrap';
 
 function Skills() {
@@ -79,6 +79,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-0"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/html1.png"
                             />
                           </Col>
@@ -117,6 +118,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/css.png"
                             />
                           </Col>
@@ -155,6 +157,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/js.png"
                             />
                           </Col>
@@ -193,6 +196,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/b.png"
                             />
                           </Col>
@@ -231,6 +235,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/react.png"
                             />
                           </Col>
@@ -302,6 +307,7 @@ function Skills() {
                       >
                         <img
                           className="logo-md"
+                          loading="lazy"
                           src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/SA.png"
                         />
                       </a>
@@ -349,6 +355,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Node.png"
                             />
                           </Col>
@@ -387,6 +394,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/express.png"
                             />
                           </Col>
@@ -425,6 +433,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/mongodb.png"
                             />
                           </Col>
@@ -487,6 +496,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/ds.png"
                             />
                           </Col>
@@ -525,6 +535,7 @@ function Skills() {
                           <Col xs="6" className="text-align-right">
                             <img
                               className="logo-md p-2"
+                              loading="lazy"
                               src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/c++.png"
                             />
                           </Col>

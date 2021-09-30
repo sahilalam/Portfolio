@@ -24,6 +24,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image p-0 m-0 "
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/v.PNG"
                       />
                     </Col>
@@ -54,6 +55,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image m-0 p-0"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/url.PNG"
                       />
                     </Col>
@@ -84,6 +86,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image m-0 p-0"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Dashboard.PNG"
                       />
                     </Col>
@@ -112,6 +115,7 @@ export default function Fullstack() {
                     >
                       <img
                         className="project-image p-0 m-0 "
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/Blogger.PNG"
                       />
                     </Col>

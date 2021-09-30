@@ -1,6 +1,6 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
 export default function Frontend() {
   return (
     <Row className="justify-content-center p-1 pt-2">
@@ -27,6 +27,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/spotify.PNG"
                       />
                     </Col>
@@ -57,6 +58,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/tv.PNG"
                       />
                     </Col>
@@ -86,6 +88,7 @@ export default function Frontend() {
                     >
                       <img
                         className="project-image m-0 p-0"
+                        loading="lazy"
                         src="https://raw.githubusercontent.com/sahilalam/SocialMediaProjectNodejs/master/src/public/Components/ICONS/todo.PNG"
                       />
                     </Col>
